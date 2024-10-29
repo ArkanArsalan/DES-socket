@@ -394,32 +394,32 @@ class DES():
             return plain_text_ascii
         
         
-    # CBC mode encryption
+    # CBC Enkripsi
     def encryption_cbc(self, input, output_format="hex"):
         self.log_with_timestamp("CBC Mode Encryption Process")
         
-        # Convert input to bin
+        # Konversi input to biner
         input_bin = self.string_to_binary(input)
         
-        # Split input into 64-bit blocks, padding if necessary
+        # Split input ke blok 64-bit
         blocks = [input_bin[i:i+64] for i in range(0, len(input_bin), 64)]
         if len(blocks[-1]) < 64:
-            blocks[-1] = blocks[-1].ljust(64, '0')  # Add padding if needed
+            blocks[-1] = blocks[-1].ljust(64, '0')  # Dilakukan padding jika perlu
             
         
         cipher_blocks = []
-        previous_block = self.iv  # Use the constant IV
+        previous_block = self.iv  # Menggunakan IV konstan
 
         for block in blocks:
-            # XOR plaintext block with previous ciphertext block (or IV for first block)
+            # XOR blok plaintext dengan blok ciphertext sebelumnya (atau IV untuk blok pertama)
             block_xor_iv = ''.join(str(int(block[i]) ^ int(previous_block[i])) for i in range(64))
             
-            # Encrypt the XORed result with single-block DES encryption
+            # Enkripsi hasil yang sudah di XOR dengan single-block DES encryption
             encrypted_block = self.encryption(block_xor_iv, output_format="bin")
             cipher_blocks.append(encrypted_block)
             previous_block = encrypted_block  # Update previous block for next round
 
-        # Concatenate all cipher blocks
+        # Join semua blok
         final_cipher = ''.join(cipher_blocks)
         
         if output_format == "hex":
@@ -427,29 +427,28 @@ class DES():
         else:
             return final_cipher
 
-    # CBC mode decryption
+    # CBC decryption
     def decryption_cbc(self, input, output_format="text"):
         self.log_with_timestamp("CBC Mode Decryption Process")
 
         input_bin = self.hex_to_binary(input)
 
-        # Split ciphertext into 64-bit blocks
+        # Split ciphertext menjadi blok 64-bit 
         blocks = [input_bin[i:i+64] for i in range(0, len(input_bin), 64)]
         
         plain_blocks = []
-        previous_block = self.iv  # Use the constant IV
-
+        previous_block = self.iv  # Menggunakan IV konstan
         for block in blocks:
-            # Decrypt the ciphertext block with single-block DES decryption
+            # Dekripsi dengan single-block DES encryption
             decrypted_block = self.decryption(block, output_format="bin")
             
-            # XOR decrypted block with previous ciphertext block (or IV for first block)
+            # XOR blok yang terdekripsi dengan blok ciphertext sebelumnya (atau IV untuk blok pertama)
             plain_text_block = ''.join(str(int(decrypted_block[i]) ^ int(previous_block[i])) for i in range(64))
             plain_blocks.append(plain_text_block)
             
-            previous_block = block  # Update previous block for next round
+            previous_block = block  # Update blok sebelumnya untuk next round
 
-        # Concatenate all plaintext blocks
+        # Gabung semua blok plaintext
         final_plaintext = ''.join(plain_blocks)
 
         if output_format == "text":
