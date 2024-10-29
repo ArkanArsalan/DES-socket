@@ -1,0 +1,3266 @@
+Key: 0010111110110011011011100111000101110110000110100100000001100010
+[2024-10-30 00:45:14.686113] Cipher text received: 894D60BBDCE5C46F19D4FC44525522F270148CD7C39608F4BC09E1F0E9F45FFCDCCE9028B6B475FA3E45A14163DE8CE15589FE3C46AA9BDAD67E161820AE1BE9
+[2024-10-30 00:45:14.686113] CBC Mode Decryption Process
+
+Round 1 Decryption:
+Left (L1): F618F2AB
+Right (R1): 79AC9B88
+Key: 512C8C040140
+Expanded Right: 3F3D594F7C50
+XOR Result: 6E11D54B7D10
+S-Box Substituted: 5D92576A
+P-Box Result: 2C7EE51A
+New Right (R1): DA6617B1
+
+Round 2 Decryption:
+Left (L2): 79AC9B88
+Right (R2): DA6617B1
+Key: 192C8C040102
+Expanded Right: EF430C0AFDA3
+XOR Result: F66F800EFCA1
+S-Box Substituted: 6B77BAF2
+P-Box Result: F77BD685
+New Right (R2): 8ED74D0D
+
+Round 3 Decryption:
+Left (L3): DA6617B1
+Right (R3): 8ED74D0D
+Key: 1B288D220102
+Expanded Right: C5D6AEA5A85B
+XOR Result: DEFE2387A959
+S-Box Substituted: E25FBDD0
+P-Box Result: F7D1B2C9
+New Right (R3): 2DB7A578
+
+Round 4 Decryption:
+Left (L4): 8ED74D0D
+Right (R4): 2DB7A578
+Key: 1F0989222001
+Expanded Right: 15BDAFD0ABF0
+XOR Result: 0AB426F28BF1
+S-Box Substituted: 4F10027F
+P-Box Result: 4E3ACC30
+New Right (R4): C0ED813D
+
+Round 5 Decryption:
+Left (L5): 2DB7A578
+Right (R5): C0ED813D
+Key: 1F4199002081
+Expanded Right: E0175BC029FB
+XOR Result: FF56C2C0097A
+S-Box Substituted: D7BDFCD3
+P-Box Result: F796D9DF
+New Right (R5): DA217CA7
+
+Round 6 Decryption:
+Left (L6): C0ED813D
+Right (R6): DA217CA7
+Key: 0F41D9100084
+Expanded Right: EF4102BF950F
+XOR Result: E000DBAF958B
+S-Box Substituted: 3F7AE673
+P-Box Result: 477F4EDE
+New Right (R6): 8792CFE3
+
+Round 7 Decryption:
+Left (L7): DA217CA7
+Right (R7): 8792CFE3
+Key: 2F5151100204
+Expanded Right: C0FCA565FF07
+XOR Result: EFADF475FD03
+S-Box Substituted: 0333886F
+P-Box Result: DD524C24
+New Right (R7): 07733083
+
+Round 8 Decryption:
+Left (L8): 8792CFE3
+Right (R8): 07733083
+Key: 265353810200
+Expanded Right: 80EBA69A1406
+XOR Result: A6B8F51B1606
+S-Box Substituted: 4FA51B54
+P-Box Result: F238F134
+New Right (R8): 75AA3ED7
+
+Round 9 Decryption:
+Left (L9): 07733083
+Right (R9): 75AA3ED7
+Key: A65352810210
+Expanded Right: BABD541FD6AE
+XOR Result: 1CEE069ED4BE
+S-Box Substituted: 44537FC8
+P-Box Result: BC75A099
+New Right (R9): BB06901A
+
+Round 10 Decryption:
+Left (L10): 75AA3ED7
+Right (R10): BB06901A
+Key: A4D272800810
+Expanded Right: 5F680D4A00F5
+XOR Result: FBBA7FCA08E5
+S-Box Substituted: 056E99BE
+P-Box Result: 3B437475
+New Right (R10): 4EE94AA2
+
+Round 11 Decryption:
+Left (L11): BB06901A
+Right (R11): 4EE94AA2
+Key: E09272004820
+Expanded Right: 25D752A55504
+XOR Result: C54520A51D24
+S-Box Substituted: 52CA1664
+P-Box Result: 6071856A
+New Right (R11): DB771570
+
+Round 12 Decryption:
+Left (L12): 4EE94AA2
+Right (R12): DB771570
+Key: E09626085020
+Expanded Right: 6F6BAE8AABA1
+XOR Result: 8FFD8882FB81
+S-Box Substituted: C9C04AE1
+P-Box Result: 10BDCD01
+New Right (R12): 5E5487A3
+
+Round 13 Decryption:
+Left (L13): DB771570
+Right (R13): 5E5487A3
+Key: E0A626081408
+Expanded Right: AFC2A940FD06
+XOR Result: 4F648F48E90E
+S-Box Substituted: 66D358B1
+P-Box Result: F6458F11
+New Right (R13): 2D329A61
+
+Round 14 Decryption:
+Left (L14): 5E5487A3
+Right (R14): 2D329A61
+Key: D0AC26408408
+Expanded Right: 95A9A54F4302
+XOR Result: 4505830FC70A
+S-Box Substituted: A978BB6F
+P-Box Result: 3DBB6EE4
+New Right (R14): 63EFE947
+
+Round 15 Decryption:
+Left (L15): 2D329A61
+Right (R15): 63EFE947
+Key: 50ACA4408040
+Expanded Right: B07F5FF52A0E
+XOR Result: E0D3FBB5AA4E
+S-Box Substituted: 38A72711
+P-Box Result: 82683B8E
+New Right (R15): AF5AA1EF
+
+Round 16 Decryption:
+Left (L16): 63EFE947
+Right (R16): AF5AA1EF
+Key: 502CAC440040
+Expanded Right: D5EAF5503F5F
+XOR Result: 85C659143F1F
+S-Box Substituted: F5C12F92
+P-Box Result: 92A3E39B
+New Right (R16): F14C0ADC
+
+Plain text (Hex): 1100101010100110100100111011011101100001110010100111001111001011
+
+Round 1 Decryption:
+Left (L1): BEB72E21
+Right (R1): 86C405D0
+Key: 512C8C040140
+Expanded Right: 40D60800BEA1
+XOR Result: 11FA8404BFE1
+S-Box Substituted: D5FEECC2
+P-Box Result: 15D7D1DF
+New Right (R1): AB60FFFE
+
+Round 2 Decryption:
+Left (L2): 86C405D0
+Right (R2): AB60FFFE
+Key: 192C8C040102
+Expanded Right: 556B017FFFFD
+XOR Result: 4C478D7BFEFF
+S-Box Substituted: 68809D2B
+P-Box Result: 390AAF08
+New Right (R2): BFCEAAD8
+
+Round 3 Decryption:
+Left (L3): AB60FFFE
+Right (R3): BFCEAAD8
+Key: 1B288D220102
+Expanded Right: 5FFE5D5556F1
+XOR Result: 44D6D07757F3
+S-Box Substituted: A8B1816C
+P-Box Result: 8D982724
+New Right (R3): 26F8D8DA
+
+Round 4 Decryption:
+Left (L4): BFCEAAD8
+Right (R4): 26F8D8DA
+Key: 1F0989222001
+Expanded Right: 10D7F16F16F4
+XOR Result: 0FDE784D36F5
+S-Box Substituted: FEB501F9
+P-Box Result: CE98BF17
+New Right (R4): 715615CF
+
+Round 5 Decryption:
+Left (L5): 26F8D8DA
+Right (R5): 715615CF
+Key: 1F4199002081
+Expanded Right: BA2AAC0ABE5E
+XOR Result: A56B350A9EDF
+S-Box Substituted: 4D35C922
+P-Box Result: 950EF414
+New Right (R5): B3F62CCE
+
+Round 6 Decryption:
+Left (L6): 715615CF
+Right (R6): B3F62CCE
+Key: 0F41D9100084
+Expanded Right: 5A7FAC15965D
+XOR Result: 553E750596D9
+S-Box Substituted: C0B5E0F0
+P-Box Result: 87949585
+New Right (R6): F6C2804A
+
+Round 7 Decryption:
+Left (L7): B3F62CCE
+Right (R7): F6C2804A
+Key: 2F5151100204
+Expanded Right: 7AD605400255
+XOR Result: 558754500051
+S-Box Substituted: CCF83CDC
+P-Box Result: 3E9981FD
+New Right (R7): 8D6FAD33
+
+Round 8 Decryption:
+Left (L8): F6C2804A
+Right (R8): 8D6FAD33
+Key: 265353810200
+Expanded Right: C5AB5FD5A9A7
+XOR Result: E3F80C54ABA7
+S-Box Substituted: 39D9F2E7
+P-Box Result: A53F4FE3
+New Right (R8): 53FDCFA9
+
+Round 9 Decryption:
+Left (L9): 8D6FAD33
+Right (R9): 53FDCFA9
+Key: A65352810210
+Expanded Right: AA7FFBE5FD52
+XOR Result: 0C2CA964FF42
+S-Box Substituted: F11A3532
+P-Box Result: 26C2E6CA
+New Right (R9): ABAD4BF9
+
+Round 10 Decryption:
+Left (L10): 53FDCFA9
+Right (R10): ABAD4BF9
+Key: A4D272800810
+Expanded Right: D57D5AA57FF3
+XOR Result: 71AF282577E3
+S-Box Substituted: 00EC4E61
+P-Box Result: 10351D4C
+New Right (R10): 43C8D2E5
+
+Round 11 Decryption:
+Left (L11): ABAD4BF9
+Right (R11): 43C8D2E5
+Key: E09272004820
+Expanded Right: A07E516A570A
+XOR Result: 40EC236A1F2A
+S-Box Substituted: 34BF049C
+P-Box Result: 8E40137F
+New Right (R11): 25ED5886
+
+Round 12 Decryption:
+Left (L12): 43C8D2E5
+Right (R12): 25ED5886
+Key: E09626085020
+Expanded Right: 10BF5AAF140C
+XOR Result: F0297CA7442C
+S-Box Substituted: 51D8143E
+P-Box Result: 2E03C56A
+New Right (R12): 6DCB178F
+
+Round 13 Decryption:
+Left (L13): 25ED5886
+Right (R13): 6DCB178F
+Key: E0A626081408
+Expanded Right: B5BE568AFC5E
+XOR Result: 55187082E856
+S-Box Substituted: CC1F436E
+P-Box Result: 8CFEB470
+New Right (R13): A913ECF6
+
+Round 14 Decryption:
+Left (L14): 6DCB178F
+Right (R14): A913ECF6
+Key: D0AC26408408
+Expanded Right: 5528A7F597AD
+XOR Result: 858481B513A5
+S-Box Substituted: FCDD26DE
+P-Box Result: 8EBB93FB
+New Right (R14): E3708474
+
+Round 15 Decryption:
+Left (L15): A913ECF6
+Right (R15): E3708474
+Key: 50ACA4408040
+Expanded Right: 706BA14083A9
+XOR Result: 20C7050003E9
+S-Box Substituted: 232B2CA4
+P-Box Result: D04046ED
+New Right (R15): 7953AA1B
+
+Round 16 Decryption:
+Left (L16): E3708474
+Right (R16): 7953AA1B
+Key: 502CAC440040
+Expanded Right: BF2AA7D540F6
+XOR Result: EF060B9140B6
+S-Box Substituted: 05BF13BD
+P-Box Result: AE607D75
+New Right (R16): 4D10F901
+
+Plain text (Hex): 1110011100101010010000001100111010110110100011001110010000001100
+
+Round 1 Decryption:
+Left (L1): 99ABAE18
+Right (R1): BC814438
+Key: 512C8C040140
+Expanded Right: 5F9402A081F1
+XOR Result: 0EB88EA480B1
+S-Box Substituted: FF6A19BF
+P-Box Result: 7ACBEE77
+New Right (R1): E360406F
+
+Round 2 Decryption:
+Left (L2): BC814438
+Right (R2): E360406F
+Key: 192C8C040102
+Expanded Right: F06B0020035F
+XOR Result: E9478C24025D
+S-Box Substituted: A2894C49
+P-Box Result: D8940B48
+New Right (R2): 64154F70
+
+Round 3 Decryption:
+Left (L3): E360406F
+Right (R3): 64154F70
+Key: 1B288D220102
+Expanded Right: 3080AAA5EBA0
+XOR Result: 2BA82787EAA2
+S-Box Substituted: F3D6B63B
+P-Box Result: 6FE3DF8A
+New Right (R3): 8C839FE5
+
+Round 4 Decryption:
+Left (L4): 64154F70
+Right (R4): 8C839FE5
+Key: 1F0989222001
+Expanded Right: C59407CFFF0B
+XOR Result: DA9D8EEDDF0A
+S-Box Substituted: 73CA439F
+P-Box Result: 4A67EB63
+New Right (R4): 2E72A413
+
+Round 5 Decryption:
+Left (L5): 8C839FE5
+Right (R5): 2E72A413
+Key: 1F4199002081
+Expanded Right: 95C3A55080A6
+XOR Result: 8A823C50A027
+S-Box Substituted: 1A683247
+P-Box Result: 603B08E6
+New Right (R5): ECB89703
+
+Round 6 Decryption:
+Left (L6): 2E72A413
+Right (R6): ECB89703
+Key: 0F41D9100084
+Expanded Right: F595F14AE807
+XOR Result: FAD4285AE883
+S-Box Substituted: 041CF34F
+P-Box Result: 2D3638F0
+New Right (R6): 03449CE3
+
+Round 7 Decryption:
+Left (L7): ECB89703
+Right (R7): 03449CE3
+Key: 2F5151100204
+Expanded Right: 806A094F9706
+XOR Result: AF3B585F9502
+S-Box Substituted: 968BA692
+P-Box Result: C3E201DB
+New Right (R7): 2F5A96D8
+
+Round 8 Decryption:
+Left (L8): 03449CE3
+Right (R8): 2F5A96D8
+Key: 265353810200
+Expanded Right: 15EAF54AD6F0
+XOR Result: 33B9A6CBD4F0
+S-Box Substituted: B5909830
+P-Box Result: 37804712
+New Right (R8): 34C4DBF1
+
+Round 9 Decryption:
+Left (L9): 2F5A96D8
+Right (R9): 34C4DBF1
+Key: A65352810210
+Expanded Right: 9A96096F7FA2
+XOR Result: 3CC55BEE7DB2
+S-Box Substituted: 135A4C86
+P-Box Result: 5447406B
+New Right (R9): 7B1DD6B3
+
+Round 10 Decryption:
+Left (L10): 34C4DBF1
+Right (R10): 7B1DD6B3
+Key: A4D272800810
+Expanded Right: BF68FBEAD5A6
+XOR Result: 1BBA896ADDB6
+S-Box Substituted: 15F60F8D
+P-Box Result: 1C61793F
+New Right (R10): 28A5A2CE
+
+Round 11 Decryption:
+Left (L11): 7B1DD6B3
+Right (R11): 28A5A2CE
+Key: E09272004820
+Expanded Right: 15150BD0565C
+XOR Result: F58779D01E7C
+S-Box Substituted: 6CFCCAE5
+P-Box Result: 153D9F75
+New Right (R11): 6E2049C6
+
+Round 12 Decryption:
+Left (L12): 28A5A2CE
+Right (R12): 6E2049C6
+Key: E09626085020
+Expanded Right: 35C100253E0C
+XOR Result: D557262D6E2C
+S-Box Substituted: 3120740E
+P-Box Result: 280642AE
+New Right (R12): 00A3E060
+
+Round 13 Decryption:
+Left (L13): 6E2049C6
+Right (R13): 00A3E060
+Key: E0A626081408
+Expanded Right: 001507F00300
+XOR Result: E0B321F81708
+S-Box Substituted: 32F3EA66
+P-Box Result: D57707A6
+New Right (R13): BB574E60
+
+Round 14 Decryption:
+Left (L14): 00A3E060
+Right (R14): BB574E60
+Key: D0AC26408408
+Expanded Right: 5F6AAEA5C301
+XOR Result: 8FC688E54709
+S-Box Substituted: C240A36A
+P-Box Result: 49B3A480
+New Right (R14): 491044E0
+
+Round 15 Decryption:
+Left (L15): BB574E60
+Right (R15): 491044E0
+Key: 50ACA4408040
+Expanded Right: 2528A0209700
+XOR Result: 758404601740
+S-Box Substituted: 3C1EDA8D
+P-Box Result: 3D6C1A73
+New Right (R15): 863B5413
+
+Round 16 Decryption:
+Left (L16): 491044E0
+Right (R16): 863B5413
+Key: 502CAC440040
+Expanded Right: C0C1F6AA80A7
+XOR Result: 90ED5AEE80E7
+S-Box Substituted: E4EC4207
+P-Box Result: 00A79B74
+New Right (R16): 49B7DF94
+
+Plain text (Hex): 0111011010110110100111010110010000111111001100000100110010010101
+
+Round 1 Decryption:
+Left (L1): FCE9E156
+Right (R1): BDBDD340
+Key: 512C8C040140
+Expanded Right: 5FBDFBEA6A01
+XOR Result: 0E9177EE6B41
+S-Box Substituted: F30B45A1
+P-Box Result: C0C4EE4B
+New Right (R1): 3C2D0F1D
+
+Round 2 Decryption:
+Left (L2): BDBDD340
+Right (R2): 3C2D0F1D
+Key: 192C8C040102
+Expanded Right: 9F815A85E8FA
+XOR Result: 86ADD681E9F8
+S-Box Substituted: F4354B8F
+P-Box Result: 9CA6BA37
+New Right (R2): 211B6977
+
+Round 3 Decryption:
+Left (L3): 3C2D0F1D
+Right (R3): 211B6977
+Key: 1B288D220102
+Expanded Right: 9028F6B52BAE
+XOR Result: 8B007B972AAC
+S-Box Substituted: 15D7C03E
+P-Box Result: 8F475532
+New Right (R3): B36A5A2F
+
+Round 4 Decryption:
+Left (L4): 211B6977
+Right (R4): B36A5A2F
+Key: 1F0989222001
+Expanded Right: DA6B542F415F
+XOR Result: C562DD0D615E
+S-Box Substituted: 5D4EB4B7
+P-Box Result: 234BDCFB
+New Right (R4): 0250B58C
+
+Round 5 Decryption:
+Left (L5): B36A5A2F
+Right (R5): 0250B58C
+Key: 1F4199002081
+Expanded Right: 0042A15ABC58
+XOR Result: 1F03385A9CD9
+S-Box Substituted: 45F5F950
+P-Box Result: B715F194
+New Right (R5): 047FABBB
+
+Round 6 Decryption:
+Left (L6): 0250B58C
+Right (R6): 047FABBB
+Key: 0F41D9100084
+Expanded Right: 8083FFD57DF6
+XOR Result: 8FC226C57D72
+S-Box Substituted: C2606E06
+P-Box Result: 50A780AC
+New Right (R6): 52F73520
+
+Round 7 Decryption:
+Left (L7): 047FABBB
+Right (R7): 52F73520
+Key: 2F5151100204
+Expanded Right: 2A57AE9AA900
+XOR Result: 0506FF8AAB04
+S-Box Substituted: 09BE2878
+P-Box Result: 1E5855C4
+New Right (R7): 1A27FE7F
+
+Round 8 Decryption:
+Left (L8): 52F73520
+Right (R8): 1A27FE7F
+Key: 265353810200
+Expanded Right: 8F410FFFC3FE
+XOR Result: A9125C7EC1FE
+S-Box Substituted: 6C346C78
+P-Box Result: 1E1C969C
+New Right (R8): 4CEBA3BC
+
+Round 9 Decryption:
+Left (L9): 1A27FE7F
+Right (R9): 4CEBA3BC
+Key: A65352810210
+Expanded Right: 259757D07DF8
+XOR Result: 83C405517FE8
+S-Box Substituted: 421B3EC9
+P-Box Result: FC7088C9
+New Right (R9): E65776B6
+
+Round 10 Decryption:
+Left (L10): 4CEBA3BC
+Right (R10): E65776B6
+Key: A4D272800810
+Expanded Right: 70C2AEBAD5AD
+XOR Result: D410DC3ADDBD
+S-Box Substituted: 33746F86
+P-Box Result: 542772AF
+New Right (R10): 18CCD113
+
+Round 11 Decryption:
+Left (L11): E65776B6
+Right (R11): 18CCD113
+Key: E09272004820
+Expanded Right: 8F16596A28A6
+XOR Result: 6F842B6A6086
+S-Box Substituted: 591105B4
+P-Box Result: 8608E42B
+New Right (R11): 605F929D
+
+Round 12 Decryption:
+Left (L12): 18CCD113
+Right (R12): 605F929D
+Key: E09626085020
+Expanded Right: B002FFCA54FA
+XOR Result: 5094D9C204DA
+S-Box Substituted: 6F81F930
+P-Box Result: F30CE790
+New Right (R12): EBC03683
+
+Round 13 Decryption:
+Left (L13): 605F929D
+Right (R13): EBC03683
+Key: E0A626081408
+Expanded Right: F57E001AD407
+XOR Result: 15D82612C00F
+S-Box Substituted: 7BD04C44
+P-Box Result: 541DC32A
+New Right (R13): 344251B7
+
+Round 14 Decryption:
+Left (L14): EBC03683
+Right (R14): 344251B7
+Key: D0AC26408408
+Expanded Right: 9A82042A3DAE
+XOR Result: 4A2E226AB9A6
+S-Box Substituted: AE5605D1
+P-Box Result: 46D93A19
+New Right (R14): AD190C9A
+
+Round 15 Decryption:
+Left (L15): 344251B7
+Right (R15): AD190C9A
+Key: 50ACA4408040
+Expanded Right: 55A8F28594F5
+XOR Result: 050456C514B5
+S-Box Substituted: 092566C9
+P-Box Result: 883C588D
+New Right (R15): BC7E093A
+
+Round 16 Decryption:
+Left (L16): AD190C9A
+Right (R16): BC7E093A
+Key: 502CAC440040
+Expanded Right: 5F83FC0529F5
+XOR Result: 0FAF504129B5
+S-Box Substituted: F3218DD9
+P-Box Result: DB90EA0F
+New Right (R16): 7689E695
+
+Plain text (Hex): 0001100101100110111001011011101011100011111001100110010010010101
+
+Round 1 Decryption:
+Left (L1): C3F57340
+Right (R1): B7F88B92
+Key: 512C8C040140
+Expanded Right: 5AFFF1457CA5
+XOR Result: 0BD37D417DE5
+S-Box Substituted: 4E628EFE
+P-Box Result: 5B7B843D
+New Right (R1): 988EF77D
+
+Round 2 Decryption:
+Left (L2): B7F88B92
+Right (R2): 988EF77D
+Key: 192C8C040102
+Expanded Right: CF145D7AEBFB
+XOR Result: D638D17EEAF9
+S-Box Substituted: 38A46343
+P-Box Result: 003E3B86
+New Right (R2): B7C6B014
+
+Round 3 Decryption:
+Left (L3): 988EF77D
+Right (R3): B7C6B014
+Key: 1B288D220102
+Expanded Right: 5AFE0D5A00A9
+XOR Result: 41D6807801AB
+S-Box Substituted: 3B479CEA
+P-Box Result: F95B560B
+New Right (R3): 61D5A176
+
+Round 4 Decryption:
+Left (L4): B7C6B014
+Right (R4): 61D5A176
+Key: 1F0989222001
+Expanded Right: 303EABD02BAC
+XOR Result: 2F3722F20BAD
+S-Box Substituted: 262609E8
+P-Box Result: 58503615
+New Right (R4): EF968601
+
+Round 5 Decryption:
+Left (L5): 61D5A176
+Right (R5): EF968601
+Key: 1F4199002081
+Expanded Right: F5FCAD40C003
+XOR Result: EABD3440E082
+S-Box Substituted: AF2388B2
+P-Box Result: D3CA4615
+New Right (R5): B21FE763
+
+Round 6 Decryption:
+Left (L6): EF968601
+Right (R6): B21FE763
+Key: 0F41D9100084
+Expanded Right: DA40FFF0EB07
+XOR Result: D50126E0EB83
+S-Box Substituted: 399068EF
+P-Box Result: 1C1E4FA3
+New Right (R6): F388C9A2
+
+Round 7 Decryption:
+Left (L7): B21FE763
+Right (R7): F388C9A2
+Key: 2F5151100204
+Expanded Right: 7A7C51653D05
+XOR Result: 552D00753F01
+S-Box Substituted: C7278191
+P-Box Result: C3C0F815
+New Right (R7): 71DF1F76
+
+Round 8 Decryption:
+Left (L8): F388C9A2
+Right (R8): 71DF1F76
+Key: 265353810200
+Expanded Right: 3A3EFE8FEBAC
+XOR Result: 1C6DAD0EE9AC
+S-Box Substituted: 4ECDB3DE
+P-Box Result: EB3BB1F1
+New Right (R8): 18B37853
+
+Round 9 Decryption:
+Left (L9): 71DF1F76
+Right (R9): 18B37853
+Key: A65352810210
+Expanded Right: 8F15A6BF02A6
+XOR Result: 2946F43E00B6
+S-Box Substituted: F2B319BD
+P-Box Result: FEC0AF27
+New Right (R9): 8F1FB051
+
+Round 10 Decryption:
+Left (L10): 18B37853
+Right (R10): 8F1FB051
+Key: A4D272800810
+Expanded Right: C5E8FFDA02A3
+XOR Result: 613A8D5A0AB3
+S-Box Substituted: 50F0F93C
+P-Box Result: 3F05A5A6
+New Right (R10): 27B6DDF5
+
+Round 11 Decryption:
+Left (L11): 8F1FB051
+Right (R11): 27B6DDF5
+Key: E09272004820
+Expanded Right: 90FDAD6FBFAA
+XOR Result: 706FDF6FF78A
+S-Box Substituted: 0EC99D1F
+P-Box Result: FB0B2978
+New Right (R11): 74149929
+
+Round 12 Decryption:
+Left (L12): 27B6DDF5
+Right (R12): 74149929
+Key: E09626085020
+Expanded Right: BA80A94F2952
+XOR Result: 5A168F477972
+S-Box Substituted: CD4357D6
+P-Box Result: A2FFE039
+New Right (R12): 85493DCC
+
+Round 13 Decryption:
+Left (L13): 74149929
+Right (R13): 85493DCC
+Key: E0A626081408
+Expanded Right: 40AA529FBE59
+XOR Result: A00C7497AA51
+S-Box Substituted: DF43CD1C
+P-Box Result: DBCDE03A
+New Right (R13): AFD97913
+
+Round 14 Decryption:
+Left (L14): 85493DCC
+Right (R14): AFD97913
+Key: D0AC26408408
+Expanded Right: D5FEF2BF28A7
+XOR Result: 0552D4FFACAF
+S-Box Substituted: 01483DFD
+P-Box Result: 3A116CE9
+New Right (R14): BF585125
+
+Round 15 Decryption:
+Left (L15): AFD97913
+Right (R15): BF585125
+Key: 50ACA4408040
+Expanded Right: DFEAF02A290B
+XOR Result: 8F46546AA94B
+S-Box Substituted: CCC808D3
+P-Box Result: 129B8951
+New Right (R15): BD42F042
+
+Round 16 Decryption:
+Left (L16): BF585125
+Right (R16): BD42F042
+Key: 502CAC440040
+Expanded Right: 5FAA057A0205
+XOR Result: 0F86A93E0245
+S-Box Substituted: F94A194D
+P-Box Result: 38D9EA62
+New Right (R16): 8781BB47
+
+Plain text (Hex): 1101010101100111110000011000010010001100100011000010101111011100
+
+Round 1 Decryption:
+Left (L1): BA21639E
+Right (R1): E4956131
+Key: 512C8C040140
+Expanded Right: F094AAB029A3
+XOR Result: A1B826B428E3
+S-Box Substituted: D9D021B1
+P-Box Result: 0689ED83
+New Right (R1): BCA88E1D
+
+Round 2 Decryption:
+Left (L2): E4956131
+Right (R2): BCA88E1D
+Key: 192C8C040102
+Expanded Right: DF955145C0FB
+XOR Result: C6B9DD41C1F9
+S-Box Substituted: 5F0E8573
+P-Box Result: 435AFC5A
+New Right (R2): A7CF9D6B
+
+Round 3 Decryption:
+Left (L3): BCA88E1D
+Right (R3): A7CF9D6B
+Key: 1B288D220102
+Expanded Right: D0FE5FCFAB57
+XOR Result: CBD6D2EDAA55
+S-Box Substituted: CEB24716
+P-Box Result: 46EEA13C
+New Right (R3): FA462F21
+
+Round 4 Decryption:
+Left (L4): A7CF9D6B
+Right (R4): FA462F21
+Key: 1F0989222001
+Expanded Right: FF420C15E903
+XOR Result: E04B8537C902
+S-Box Substituted: 380BDBB2
+P-Box Result: B36E2643
+New Right (R4): 14A1BB28
+
+Round 5 Decryption:
+Left (L5): FA462F21
+Right (R5): 14A1BB28
+Key: 1F4199002081
+Expanded Right: 0A9503DF6950
+XOR Result: 15D49ADF49D1
+S-Box Substituted: 7BDC948C
+P-Box Result: 6D09D36B
+New Right (R5): 974FFC4A
+
+Round 6 Decryption:
+Left (L6): 14A1BB28
+Right (R6): 974FFC4A
+Key: 0F41D9100084
+Expanded Right: 4AEA5FFF8255
+XOR Result: 45AB86EF82D1
+S-Box Substituted: A003419C
+P-Box Result: 8AC42221
+New Right (R6): 9E659909
+
+Round 7 Decryption:
+Left (L7): 974FFC4A
+Right (R7): 9E659909
+Key: 2F5151100204
+Expanded Right: CFC30BCF2853
+XOR Result: E0925ADF2A57
+S-Box Substituted: 3F3C901B
+P-Box Result: 6F0A5A56
+New Right (R7): F845A61C
+
+Round 8 Decryption:
+Left (L8): 9E659909
+Right (R8): F845A61C
+Key: 265353810200
+Expanded Right: 7F020BD0C0F9
+XOR Result: 59515851C2F9
+S-Box Substituted: C10B3593
+P-Box Result: A2C2E8C9
+New Right (R8): 3CA771C0
+
+Round 9 Decryption:
+Left (L9): F845A61C
+Right (R9): 3CA771C0
+Key: A65352810210
+Expanded Right: 1F950EBA3E00
+XOR Result: B9C65C3B3C10
+S-Box Substituted: B5C46EAA
+P-Box Result: 18A7579B
+New Right (R9): E0E2F187
+
+Round 10 Decryption:
+Left (L10): 3CA771C0
+Right (R10): E0E2F187
+Key: A4D272800810
+Expanded Right: F017057A3C0F
+XOR Result: 54C577FA341F
+S-Box Substituted: C35BE332
+P-Box Result: C7E7E4C0
+New Right (R10): FB409500
+
+Round 11 Decryption:
+Left (L11): E0E2F187
+Right (R11): FB409500
+Key: E09272004820
+Expanded Right: 7F6A014AA801
+XOR Result: 9FF8734AE021
+S-Box Substituted: 29145342
+P-Box Result: 243E7200
+New Right (R11): C4DC8387
+
+Round 12 Decryption:
+Left (L12): FB409500
+Right (R12): C4DC8387
+Key: E09626085020
+Expanded Right: E096F9407C0F
+XOR Result: 0000DF482C2F
+S-Box Substituted: EF7951AD
+P-Box Result: EC8DEE75
+New Right (R12): 17CD7B75
+
+Round 13 Decryption:
+Left (L13): C4DC8387
+Right (R13): 17CD7B75
+Key: E0A626081408
+Expanded Right: 8AFE5ABF6BAA
+XOR Result: 6A587CB77FA2
+S-Box Substituted: 9A18272B
+P-Box Result: 4CAA2CCA
+New Right (R13): 8876AF4D
+
+Round 14 Decryption:
+Left (L14): 17CD7B75
+Right (R14): 8876AF4D
+Key: D0AC26408408
+Expanded Right: C503AD55EA5B
+XOR Result: 15AF8B156E53
+S-Box Substituted: 707F24E5
+P-Box Result: 84519EEF
+New Right (R14): 939CE59A
+
+Round 15 Decryption:
+Left (L15): 8876AF4D
+Right (R15): 939CE59A
+Key: 50ACA4408040
+Expanded Right: 4A7CF970BCF5
+XOR Result: 1AD05D303CB5
+S-Box Substituted: 14DEBFF9
+P-Box Result: 3F713DDB
+New Right (R15): B7079296
+
+Round 16 Decryption:
+Left (L16): 939CE59A
+Right (R16): B7079296
+Key: 502CAC440040
+Expanded Right: 5AE80FCA54AD
+XOR Result: 0AC4A38E54ED
+S-Box Substituted: 4DDF8238
+P-Box Result: 8F69D550
+New Right (R16): 1CF530CA
+
+Plain text (Hex): 1011000010101011111100100100000111011110100101000001000110011011
+
+Round 1 Decryption:
+Left (L1): 95CD1D43
+Right (R1): E62CEEF4
+Key: 512C8C040140
+Expanded Right: 70C15975D7A9
+XOR Result: 21EDD571D6E9
+S-Box Substituted: 2A32E3F4
+P-Box Result: 477C26A5
+New Right (R1): D2B13BE6
+
+Round 2 Decryption:
+Left (L2): E62CEEF4
+Right (R2): D2B13BE6
+Key: 192C8C040102
+Expanded Right: 6A55A29F7F0D
+XOR Result: 73792E9B7E0F
+S-Box Substituted: 0C4DB704
+P-Box Result: A12930F8
+New Right (R2): 4705DE0C
+
+Round 3 Decryption:
+Left (L3): D2B13BE6
+Right (R3): 4705DE0C
+Key: 1B288D220102
+Expanded Right: 20E80BEFC058
+XOR Result: 3BC086CDC15A
+S-Box Substituted: 8203F5B0
+P-Box Result: E3C42489
+New Right (R3): 31751F6F
+
+Round 4 Decryption:
+Left (L4): 4705DE0C
+Right (R4): 31751F6F
+Key: 1F0989222001
+Expanded Right: 9A2BAA8FEB5E
+XOR Result: 852223ADCB5F
+S-Box Substituted: F76FE5A2
+P-Box Result: C1C7F6DF
+New Right (R4): 86C228D3
+
+Round 5 Decryption:
+Left (L5): 31751F6F
+Right (R5): 86C228D3
+Key: 1F4199002081
+Expanded Right: C0D6041516A7
+XOR Result: DF979D153626
+S-Box Substituted: E08E2151
+P-Box Result: 02D0BBC0
+New Right (R5): 33A5A4AF
+
+Round 6 Decryption:
+Left (L6): 86C228D3
+Right (R6): 33A5A4AF
+Key: 0F41D9100084
+Expanded Right: 9A7D0BD0955E
+XOR Result: 953CD2C095DA
+S-Box Substituted: 80F2F7C0
+P-Box Result: 25F5218D
+New Right (R6): A337095E
+
+Round 7 Decryption:
+Left (L7): 33A5A4AF
+Right (R7): A337095E
+Key: 2F5151100204
+Expanded Right: 5069AE852AFD
+XOR Result: 7F38FF9528F9
+S-Box Substituted: 86AECDB3
+P-Box Result: 53C63D5D
+New Right (R7): 606399F2
+
+Round 8 Decryption:
+Left (L8): A337095E
+Right (R8): 606399F2
+Key: 265353810200
+Expanded Right: 300307CF3FA4
+XOR Result: 1650544E3DA4
+S-Box Substituted: 7AD80384
+P-Box Result: 4429A363
+New Right (R8): E71EAA3D
+
+Round 9 Decryption:
+Left (L9): 606399F2
+Right (R9): E71EAA3D
+Key: A65352810210
+Expanded Right: F0E8FD5541FB
+XOR Result: 56BBAFD443EB
+S-Box Substituted: CF080AAA
+P-Box Result: 58AAC451
+New Right (R9): 38C95DA3
+
+Round 10 Decryption:
+Left (L10): E71EAA3D
+Right (R10): 38C95DA3
+Key: A4D272800810
+Expanded Right: 9F1652AFBD06
+XOR Result: 3BC4202FB516
+S-Box Substituted: 821A709E
+P-Box Result: 6EC600E1
+New Right (R10): 89D8AADC
+
+Round 11 Decryption:
+Left (L11): 38C95DA3
+Right (R11): 89D8AADC
+Key: E09272004820
+Expanded Right: 453EF15556F9
+XOR Result: A5AC83551ED9
+S-Box Substituted: 4018F620
+P-Box Result: 252484C8
+New Right (R11): 1DEDD96B
+
+Round 12 Decryption:
+Left (L12): 89D8AADC
+Right (R12): 1DEDD96B
+Key: E09626085020
+Expanded Right: 8FBF5BEF2B56
+XOR Result: 6F297DE77B76
+S-Box Substituted: 58D2A7AD
+P-Box Result: 0D69ADAB
+New Right (R12): 84B10777
+
+Round 13 Decryption:
+Left (L13): 1DEDD96B
+Right (R13): 84B10777
+Key: E0A626081408
+Expanded Right: C095A280EBAF
+XOR Result: 20338488FFA7
+S-Box Substituted: 2D5E2527
+P-Box Result: 044B7EF8
+New Right (R13): 19A6A793
+
+Round 14 Decryption:
+Left (L14): 84B10777
+Right (R14): 19A6A793
+Key: D0AC26408408
+Expanded Right: 8F3D0D50FCA6
+XOR Result: 5F912B1078AE
+S-Box Substituted: B0914242
+P-Box Result: 84B60302
+New Right (R14): 00070475
+
+Round 15 Decryption:
+Left (L15): 19A6A793
+Right (R15): 00070475
+Key: 50ACA4408040
+Expanded Right: 80000E8083AA
+XOR Result: D0ACAAC003EA
+S-Box Substituted: 9B1BFCAC
+P-Box Result: FDCC44EB
+New Right (R15): E46AE378
+
+Round 16 Decryption:
+Left (L16): 00070475
+Right (R16): E46AE378
+Key: 502CAC440040
+Expanded Right: 708355706BF1
+XOR Result: 20AFF9346BB1
+S-Box Substituted: 2BCCDFEF
+P-Box Result: 793F7F69
+New Right (R16): 79387B1C
+
+Plain text (Hex): 0100110000101100100000010111011101010111111111101110111010001000
+
+Round 1 Decryption:
+Left (L1): 834F27C0
+Right (R1): A1B2EA67
+Key: 512C8C040140
+Expanded Right: D03DA575430F
+XOR Result: 81112971424F
+S-Box Substituted: 4C9AE344
+P-Box Result: 057CA1F0
+New Right (R1): 86338630
+
+Round 2 Decryption:
+Left (L2): A1B2EA67
+Right (R2): 86338630
+Key: 192C8C040102
+Expanded Right: 40C1A7C0C1A1
+XOR Result: 59ED2BC4C0A3
+S-Box Substituted: CA2166B1
+P-Box Result: C2AC8C8D
+New Right (R2): 631E66EA
+
+Round 3 Decryption:
+Left (L3): 86338630
+Right (R3): 631E66EA
+Key: 1B288D220102
+Expanded Right: 3068FC30D754
+XOR Result: 2B407112D656
+S-Box Substituted: FCD94F2E
+P-Box Result: 9CAFA77A
+New Right (R3): 1A9C214A
+
+Round 4 Decryption:
+Left (L4): 631E66EA
+Right (R4): 1A9C214A
+Key: 1F0989222001
+Expanded Right: 0F54F8102A54
+XOR Result: 105D71320A55
+S-Box Substituted: D4E9B916
+P-Box Result: B383A1F6
+New Right (R4): D09DC71C
+
+Round 5 Decryption:
+Left (L5): 1A9C214A
+Right (R5): D09DC71C
+Key: 1F4199002081
+Expanded Right: 6A14FBE0E8F9
+XOR Result: 755562E0C878
+S-Box Substituted: 3156666F
+P-Box Result: 0C775EAA
+New Right (R5): 16EB7FE0
+
+Round 6 Decryption:
+Left (L6): D09DC71C
+Right (R6): 16EB7FE0
+Key: 0F41D9100084
+Expanded Right: 0AD756BFFF00
+XOR Result: 05968FAFFF84
+S-Box Substituted: 0643ED28
+P-Box Result: D9452498
+New Right (R6): 09D8E384
+
+Round 7 Decryption:
+Left (L7): 16EB7FE0
+Right (R7): 09D8E384
+Key: 2F5151100204
+Expanded Right: 053EF1707C08
+XOR Result: 2A6FA0607E0C
+S-Box Substituted: FB7AD20B
+P-Box Result: 6DEFCA46
+New Right (R7): 7B04B5A6
+
+Round 8 Decryption:
+Left (L8): 09D8E384
+Right (R8): 7B04B5A6
+Key: 265353810200
+Expanded Right: 3F68095ABD0C
+XOR Result: 193B5ADBBF0C
+S-Box Substituted: 108C509B
+P-Box Result: 2A061943
+New Right (R8): 23DEFAC7
+
+Round 9 Decryption:
+Left (L9): 7B04B5A6
+Right (R9): 23DEFAC7
+Key: A65352810210
+Expanded Right: 907EFD7F560E
+XOR Result: 362DAFFE541E
+S-Box Substituted: DEC83237
+P-Box Result: 62AB8DF2
+New Right (R9): 19AF3854
+
+Round 10 Decryption:
+Left (L10): 23DEFAC7
+Right (R10): 19AF3854
+Key: A4D272800810
+Expanded Right: 0F3D5E9F02A8
+XOR Result: ABEF2C1F0AB8
+S-Box Substituted: 6FE7C73F
+P-Box Result: CB6FFF3C
+New Right (R10): E8B105FB
+
+Round 11 Decryption:
+Left (L11): 19AF3854
+Right (R11): E8B105FB
+Key: E09272004820
+Expanded Right: F515A280BFF7
+XOR Result: 1587D080F7D7
+S-Box Substituted: 7C11456B
+P-Box Result: 8C1EAE1A
+New Right (R11): 95B1964E
+
+Round 12 Decryption:
+Left (L12): E8B105FB
+Right (R12): 95B1964E
+Key: E09626085020
+Expanded Right: 4ABDA3CAC25D
+XOR Result: AA2B85C2927D
+S-Box Substituted: 6E0BF946
+P-Box Result: F15EA2F0
+New Right (R12): 19EFA70B
+
+Round 13 Decryption:
+Left (L13): 95B1964E
+Right (R13): 19EFA70B
+Key: E0A626081408
+Expanded Right: 8F3F5FD0E856
+XOR Result: 6F9979D8FC5E
+S-Box Substituted: 50DC5597
+P-Box Result: 2607B96B
+New Right (R13): B3B62F25
+
+Round 14 Decryption:
+Left (L14): 19EFA70B
+Right (R14): B3B62F25
+Key: D0AC26408408
+Expanded Right: DA7DAC15E90B
+XOR Result: 0AD18A556D03
+S-Box Substituted: 44E6F46F
+P-Box Result: 29579DBC
+New Right (R14): 30B83AB7
+
+Round 15 Decryption:
+Left (L15): B3B62F25
+Right (R15): 30B83AB7
+Key: 50ACA4408040
+Expanded Right: 9A15F01F55AE
+XOR Result: CAB9545FD5EE
+S-Box Substituted: CFD8A8C2
+P-Box Result: 559BC1D1
+New Right (R15): E62DEEF4
+
+Round 16 Decryption:
+Left (L16): 30B83AB7
+Right (R16): E62DEEF4
+Key: 502CAC440040
+Expanded Right: 70C15BF5D7A9
+XOR Result: 20EDF7B1D7E9
+S-Box Substituted: 243B7364
+P-Box Result: A47426F4
+New Right (R16): 94CC1C43
+
+Plain text (Hex): 0010000110001001111111100011110001000110101010101001101111011010
+[2024-10-30 00:45:14.717362] Plain text received: aku sedang uji coba mengirim plain text lebih dari 64 bit       
+[2024-10-30 00:45:40.192136] CBC Mode Encryption Process
+[2024-10-30 00:45:40.192136] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): D9C8FAB0
+Right (R1): AF5AE6BC
+Key: 502CAC440040
+Expanded Right: 55EAF570D5F9
+XOR Result: 05C65934D5B9
+S-Box Substituted: 05C1D973
+P-Box Result: B3176D10
+New Right (R1): 6ADF97A0
+
+Round 2 Encryption:
+Left (L2): AF5AE6BC
+Right (R2): 6ADF97A0
+Key: 50ACA4408040
+Expanded Right: 3556FFCAFD00
+XOR Result: 65FA5B8A7D40
+S-Box Substituted: 956A2C0D
+P-Box Result: 18C148FE
+New Right (R2): B79BAE42
+
+Round 3 Encryption:
+Left (L3): 6ADF97A0
+Right (R3): B79BAE42
+Key: D0AC26408408
+Expanded Right: 5AFCF7D5C205
+XOR Result: 8A50D195460D
+S-Box Substituted: 1A74C357
+P-Box Result: 473F3826
+New Right (R3): 2DE0AF86
+
+Round 4 Encryption:
+Left (L4): B79BAE42
+Right (R4): 2DE0AF86
+Key: E0A626081408
+Expanded Right: 15BF0155FC0C
+XOR Result: F519275DE804
+S-Box Substituted: 6C46AB18
+P-Box Result: 1B69B290
+New Right (R4): ACF21CD2
+
+Round 5 Encryption:
+Left (L5): 2DE0AF86
+Right (R5): ACF21CD2
+Key: E09626085020
+Expanded Right: 5597A40F96A5
+XOR Result: B5018207C685
+S-Box Substituted: 19EDEBAD
+P-Box Result: 992D7DE7
+New Right (R5): B4CDD261
+
+Round 6 Encryption:
+Left (L6): ACF21CD2
+Right (R6): B4CDD261
+Key: E09272004820
+Expanded Right: DA965BEA4303
+XOR Result: 3A0429EA0B23
+S-Box Substituted: 801A3971
+P-Box Result: 36D02CC0
+New Right (R6): 9A223012
+
+Round 7 Encryption:
+Left (L7): B4CDD261
+Right (R7): 9A223012
+Key: A4D272800810
+Expanded Right: 4F41041A00A5
+XOR Result: EB93769A08B5
+S-Box Substituted: A06EB949
+P-Box Result: 39D13AC4
+New Right (R7): 8D1CE8A5
+
+Round 8 Encryption:
+Left (L8): 9A223012
+Right (R8): 8D1CE8A5
+Key: A65352810210
+Expanded Right: C5A8F975150B
+XOR Result: 63FBABF4171B
+S-Box Substituted: 59015A6E
+P-Box Result: B83EC422
+New Right (R8): 221CF430
+
+Round 9 Encryption:
+Left (L9): 8D1CE8A5
+Right (R9): 221CF430
+Key: 265353810200
+Expanded Right: 1040F97A81A0
+XOR Result: 3613AAFB83A0
+S-Box Substituted: DD5BE1D7
+P-Box Result: 87DFE8F3
+New Right (R9): 0AC30056
+
+Round 10 Encryption:
+Left (L10): 221CF430
+Right (R10): 0AC30056
+Key: 2F5151100204
+Expanded Right: 0556068002AC
+XOR Result: 2A07579000A8
+S-Box Substituted: F0FC1CB9
+P-Box Result: 3E819F4F
+New Right (R10): 1C9D6B7F
+
+Round 11 Encryption:
+Left (L11): 0AC30056
+Right (R11): 1C9D6B7F
+Key: 0F41D9100084
+Expanded Right: 8F94FAB56BFE
+XOR Result: 80D523A56B7A
+S-Box Substituted: 48CF14A3
+P-Box Result: A04B9D49
+New Right (R11): AA889D1F
+
+Round 12 Encryption:
+Left (L12): 1C9D6B7F
+Right (R12): AA889D1F
+Key: 1F4199002081
+Expanded Right: D554514FA8FF
+XOR Result: CA15C84F887E
+S-Box Substituted: CDE00168
+P-Box Result: 0899E514
+New Right (R12): 14048E6B
+
+Round 13 Encryption:
+Left (L13): AA889D1F
+Right (R13): 14048E6B
+Key: 1F0989222001
+Expanded Right: 8A800945C356
+XOR Result: 95898067E357
+S-Box Substituted: 8C97361B
+P-Box Result: AEEA1998
+New Right (R13): 04628487
+
+Round 14 Encryption:
+Left (L14): 14048E6B
+Right (R14): 04628487
+Key: 1B288D220102
+Expanded Right: 80830540940E
+XOR Result: 9BAB8862950C
+S-Box Substituted: 8300D99B
+P-Box Result: 7B866801
+New Right (R14): 6F82E66A
+
+Round 15 Encryption:
+Left (L15): 04628487
+Right (R15): 6F82E66A
+Key: 192C8C040102
+Expanded Right: 35FC0570C354
+XOR Result: 2CD08974C256
+S-Box Substituted: 2806864E
+P-Box Result: 097A1228
+New Right (R15): 0D1896AF
+
+Round 16 Encryption:
+Left (L16): 6F82E66A
+Right (R16): 0D1896AF
+Key: 512C8C040140
+Expanded Right: 85A8F14AD55E
+XOR Result: D4847D4ED41E
+S-Box Substituted: 36220F37
+P-Box Result: 52622E3E
+New Right (R16): 3DE0C854
+
+Cipher Text (Binary): 11000010 00001010 11001011 11100110 01101001 01010010 00010101 00011110
+[2024-10-30 00:45:40.192136] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): D261E41E
+Right (R1): 0DE79222
+Key: 502CAC440040
+Expanded Right: 05BF0FCA4104
+XOR Result: 5593A38E4144
+S-Box Substituted: C65F8FB8
+P-Box Result: DFE1B459
+New Right (R1): 0D805047
+
+Round 2 Encryption:
+Left (L2): 0DE79222
+Right (R2): 0D805047
+Key: 50ACA4408040
+Expanded Right: 85BC002A020E
+XOR Result: D510A46A824E
+S-Box Substituted: 3C090241
+P-Box Result: 80380A52
+New Right (R2): 8DDF9870
+
+Round 3 Encryption:
+Left (L3): 0D805047
+Right (R3): 8DDF9870
+Key: D0AC26408408
+Expanded Right: 45BEFFCF03A1
+XOR Result: 9512D98F87A9
+S-Box Substituted: 8C418114
+P-Box Result: 83892030
+New Right (R3): 8E097077
+
+Round 4 Encryption:
+Left (L4): 8DDF9870
+Right (R4): 8E097077
+Key: E0A626081408
+Expanded Right: C5C052BA03AF
+XOR Result: 256674B217A7
+S-Box Substituted: EDC37417
+P-Box Result: A2CFCBB8
+New Right (R4): 2F1053C8
+
+Round 5 Encryption:
+Left (L5): 8E097077
+Right (R5): 2F1053C8
+Key: E09626085020
+Expanded Right: 15E8A02A7E50
+XOR Result: F57E86222E70
+S-Box Substituted: 6AA37EE0
+P-Box Result: F07C878D
+New Right (R5): 7E75F7FA
+
+Round 6 Encryption:
+Left (L6): 2F1053C8
+Right (R6): 7E75F7FA
+Key: E09272004820
+Expanded Right: 3FC3ABFAFFF4
+XOR Result: DF51D9FAB7D4
+S-Box Substituted: E791E563
+P-Box Result: C596EF98
+New Right (R6): EA86BC50
+
+Round 7 Encryption:
+Left (L7): 7E75F7FA
+Right (R7): EA86BC50
+Key: A4D272800810
+Expanded Right: 75540D5F82A1
+XOR Result: D1867FDF8AB1
+S-Box Substituted: 9CCE913F
+P-Box Result: 2BCB3D72
+New Right (R7): 55BECA88
+
+Round 8 Encryption:
+Left (L8): EA86BC50
+Right (R8): 55BECA88
+Key: A65352810210
+Expanded Right: 2ABDFD655450
+XOR Result: 8CEEAFE45640
+S-Box Substituted: C4A8A42D
+P-Box Result: 09808DFC
+New Right (R8): E30631AC
+
+Round 9 Encryption:
+Left (L9): 55BECA88
+Right (R9): E30631AC
+Key: 265353810200
+Expanded Right: 70680C1A3D59
+XOR Result: 563B5F9B3F59
+S-Box Substituted: C889BE30
+P-Box Result: B3A885C8
+New Right (R9): E6164F40
+
+Round 10 Encryption:
+Left (L10): E30631AC
+Right (R10): E6164F40
+Key: 2F5151100204
+Expanded Right: 70C0AC25EA01
+XOR Result: 5F91FD35E805
+S-Box Substituted: B092DB1D
+P-Box Result: 3FE42B22
+New Right (R10): DCE21A8E
+
+Round 11 Encryption:
+Left (L11): E6164F40
+Right (R11): DCE21A8E
+Key: 0F41D9100084
+Expanded Right: 6F97040F545D
+XOR Result: 60D6DD1F54D9
+S-Box Substituted: 58BEC130
+P-Box Result: 074CB546
+New Right (R11): E15AFA06
+
+Round 12 Encryption:
+Left (L12): DCE21A8E
+Right (R12): E15AFA06
+Key: 1F4199002081
+Expanded Right: 702AF57F400D
+XOR Result: 6F6B6C7F608C
+S-Box Substituted: 56876ABB
+P-Box Result: DA669D93
+New Right (R12): 0684871D
+
+Round 13 Encryption:
+Left (L13): E15AFA06
+Right (R13): 0684871D
+Key: 1F0989222001
+Expanded Right: 80D40940E8FA
+XOR Result: 9FDD8062C8FB
+S-Box Substituted: 2EC7DCB5
+P-Box Result: F34D1F39
+New Right (R13): 1217E53F
+
+Round 14 Encryption:
+Left (L14): 0684871D
+Right (R14): 1217E53F
+Key: 1B288D220102
+Expanded Right: 8A40AFF0A9FE
+XOR Result: 916822D2A8FC
+S-Box Substituted: EDD6C8B5
+P-Box Result: 17CDDF31
+New Right (R14): 1149582C
+
+Round 15 Encryption:
+Left (L15): 1217E53F
+Right (R15): 1149582C
+Key: 192C8C040102
+Expanded Right: 0A2A52AF0158
+XOR Result: 1306DEAB005A
+S-Box Substituted: D5BFD7D0
+P-Box Result: A7F4F15F
+New Right (R15): B5E31460
+
+Round 16 Encryption:
+Left (L16): 1149582C
+Right (R16): B5E31460
+Key: 512C8C040140
+Expanded Right: 5ABF068A8301
+XOR Result: 0B938A8E8241
+S-Box Substituted: 40568241
+P-Box Result: 05719800
+New Right (R16): 1438C02C
+
+Cipher Text (Binary): 10100000 00100000 11001001 00010001 11011000 10110011 00100110 10100100
+[2024-10-30 00:45:40.192136] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): F5B44C6D
+Right (R1): B51C5544
+Key: 502CAC440040
+Expanded Right: 5AA8F82AAA09
+XOR Result: 0A84546EAA49
+S-Box Substituted: 4A28981A
+P-Box Result: 7B0A8044
+New Right (R1): 8EBECC29
+
+Round 2 Encryption:
+Left (L2): B51C5544
+Right (R2): 8EBECC29
+Key: 50ACA4408040
+Expanded Right: C5D5FD658153
+XOR Result: 957959250113
+S-Box Substituted: 8AD14025
+P-Box Result: C48D0D20
+New Right (R2): 71915864
+
+Round 3 Encryption:
+Left (L3): 8EBECC29
+Right (R3): 71915864
+Key: D0AC26408408
+Expanded Right: 3A3CA2AF0308
+XOR Result: EA9084EF8700
+S-Box Substituted: A30E416D
+P-Box Result: 48D47E60
+New Right (R3): C66AB249
+
+Round 4 Encryption:
+Left (L4): 71915864
+Right (R4): C66AB249
+Key: E0A626081408
+Expanded Right: E0C3555A4253
+XOR Result: 00657352565B
+S-Box Substituted: EE54322E
+P-Box Result: 6CAB96B0
+New Right (R4): 1D3ACED4
+
+Round 5 Encryption:
+Left (L5): C66AB249
+Right (R5): 1D3ACED4
+Key: E09626085020
+Expanded Right: 0FA9F565D6A8
+XOR Result: EF3FD36D8688
+S-Box Substituted: 06C79EA6
+P-Box Result: F1631539
+New Right (R5): 3709A770
+
+Round 6 Encryption:
+Left (L6): 1D3ACED4
+Right (R6): 3709A770
+Key: E09272004820
+Expanded Right: 1AE853D0EBA0
+XOR Result: FA7A21D0A380
+S-Box Substituted: 0183C2DD
+P-Box Result: 8B744921
+New Right (R6): 964E87F5
+
+Round 7 Encryption:
+Left (L7): 3709A770
+Right (R7): 964E87F5
+Key: A4D272800810
+Expanded Right: CAC25D40FFAB
+XOR Result: 6E102FC0F7BB
+S-Box Substituted: 5DA8F515
+P-Box Result: 230CE9FE
+New Right (R7): 14054E8E
+
+Round 8 Encryption:
+Left (L8): 964E87F5
+Right (R8): 14054E8E
+Key: A65352810210
+Expanded Right: 0A800AA5D45C
+XOR Result: ACD35824D64C
+S-Box Substituted: 986B492B
+P-Box Result: 98CF2C46
+New Right (R8): 0E81ABB3
+
+Round 9 Encryption:
+Left (L9): 14054E8E
+Right (R9): 0E81ABB3
+Key: 265353810200
+Expanded Right: 85D403D57DA6
+XOR Result: A38750547FA6
+S-Box Substituted: D9F1F221
+P-Box Result: A5ADCD86
+New Right (R9): B1A88308
+
+Round 10 Encryption:
+Left (L10): 0E81ABB3
+Right (R10): B1A88308
+Key: 2F5151100204
+Expanded Right: 5A3D51406851
+XOR Result: 756C00506A55
+S-Box Substituted: 3DB73F16
+P-Box Result: B66A73BE
+New Right (R10): B8EBD80D
+
+Round 11 Encryption:
+Left (L11): B1A88308
+Right (R11): B8EBD80D
+Key: 0F41D9100084
+Expanded Right: DF1757EF005B
+XOR Result: D0568EFF00DF
+S-Box Substituted: 944A3702
+P-Box Result: 20E320DA
+New Right (R11): 914BA3D2
+
+Round 12 Encryption:
+Left (L12): B8EBD80D
+Right (R12): 914BA3D2
+Key: 1F4199002081
+Expanded Right: 4A2A57D07EA5
+XOR Result: 556BCED05E24
+S-Box Substituted: CD7AC404
+P-Box Result: 05CDC07C
+New Right (R12): BD261871
+
+Round 13 Encryption:
+Left (L13): 914BA3D2
+Right (R13): BD261871
+Key: 1F0989222001
+Expanded Right: DFA90C0F03A3
+XOR Result: C0A0852D23A2
+S-Box Substituted: FB0B7DDB
+P-Box Result: FADEEACB
+New Right (R13): 6B954919
+
+Round 14 Encryption:
+Left (L14): BD261871
+Right (R14): 6B954919
+Key: 1B288D220102
+Expanded Right: B57CAAA528F2
+XOR Result: AE54278729F0
+S-Box Substituted: 9A16B080
+P-Box Result: 65C81083
+New Right (R14): D8EE08F2
+
+Round 15 Encryption:
+Left (L15): 6B954919
+Right (R15): D8EE08F2
+Key: 192C8C040102
+Expanded Right: 6F175C0517A5
+XOR Result: 763BD00116A7
+S-Box Substituted: 387126A7
+P-Box Result: 842B0EAF
+New Right (R15): EFBE47B6
+
+Round 16 Encryption:
+Left (L16): D8EE08F2
+Right (R16): EFBE47B6
+Key: 512C8C040140
+Expanded Right: 75FDFC20FDAD
+XOR Result: 24D17024FCED
+S-Box Substituted: E80F4558
+P-Box Result: 8ADCB248
+New Right (R16): 5232BABA
+
+Cipher Text (Binary): 10001000 11111111 10101010 10100101 01110111 10110111 11001000 10100111
+[2024-10-30 00:45:40.207675] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): 5230B8B8
+Right (R1): EFBD45B4
+Key: 502CAC440040
+Expanded Right: 75FDFAA0BDA9
+XOR Result: 25D156E4BDE9
+S-Box Substituted: EB05ACF4
+P-Box Result: D398D6A9
+New Right (R1): 81A86E11
+
+Round 2 Encryption:
+Left (L2): EFBD45B4
+Right (R2): 81A86E11
+Key: 50ACA4408040
+Expanded Right: C03D5035C0A3
+XOR Result: 9091F47540E3
+S-Box Substituted: EF938301
+P-Box Result: C5E8EB10
+New Right (R2): 2A55AEA4
+
+Round 3 Encryption:
+Left (L3): 81A86E11
+Right (R3): 2A55AEA4
+Key: D0AC26408408
+Expanded Right: 1542ABD5D508
+XOR Result: C5EE8D955100
+S-Box Substituted: 5AA0CD2D
+P-Box Result: 590CAD2E
+New Right (R3): D8A4C33F
+
+Round 4 Encryption:
+Left (L4): 2A55AEA4
+Right (R4): D8A4C33F
+Key: E0A626081408
+Expanded Right: EF15096069FF
+XOR Result: 0FB32F687DF7
+S-Box Substituted: F5F802F0
+P-Box Result: 06B1C757
+New Right (R4): 2CE469F3
+
+Round 5 Encryption:
+Left (L5): D8A4C33F
+Right (R5): 2CE469F3
+Key: E09626085020
+Expanded Right: 959708353FA6
+XOR Result: 75012E3D6F86
+S-Box Substituted: 399D1424
+P-Box Result: A408576A
+New Right (R5): 7CAC9455
+
+Round 6 Encryption:
+Left (L6): 2CE469F3
+Right (R6): 7CAC9455
+Key: E09272004820
+Expanded Right: BF95594A82AA
+XOR Result: 5F072B4ACA8A
+S-Box Substituted: B5215C3F
+P-Box Result: BA864E3E
+New Right (R6): 966227CD
+
+Round 7 Encryption:
+Left (L7): 7CAC9455
+Right (R7): 966227CD
+Key: A4D272800810
+Expanded Right: CAC30410FE5B
+XOR Result: 6E117690F64B
+S-Box Substituted: 5D0E1523
+P-Box Result: 204AFC5A
+New Right (R7): 5CE6680F
+
+Round 8 Encryption:
+Left (L8): 966227CD
+Right (R8): 5CE6680F
+Key: A65352810210
+Expanded Right: AF970C35005E
+XOR Result: 09C45EB4024E
+S-Box Substituted: 452F2C41
+P-Box Result: 9050D8DC
+New Right (R8): 0632FF11
+
+Round 9 Encryption:
+Left (L9): 5CE6680F
+Right (R9): 0632FF11
+Key: 265353810200
+Expanded Right: 80C1A57FE8A2
+XOR Result: A692F6FEEAA2
+S-Box Substituted: 434E333B
+P-Box Result: 6A63FCC0
+New Right (R9): 368594CF
+
+Round 10 Encryption:
+Left (L10): 0632FF11
+Right (R10): 368594CF
+Key: 2F5151100204
+Expanded Right: 9AD40BCA965E
+XOR Result: B5855ADA945A
+S-Box Substituted: 1C5C59E0
+P-Box Result: 341D3453
+New Right (R10): 322FCB42
+
+Round 11 Encryption:
+Left (L11): 368594CF
+Right (R11): 322FCB42
+Key: 0F41D9100084
+Expanded Right: 1A415FE56A04
+XOR Result: 150086F56A80
+S-Box Substituted: 7903543D
+P-Box Result: AA4CCE2A
+New Right (R11): 9CC95AE5
+
+Round 12 Encryption:
+Left (L12): 322FCB42
+Right (R12): 9CC95AE5
+Key: 1F4199002081
+Expanded Right: CF9652AF570B
+XOR Result: D0D7CBAF778A
+S-Box Substituted: 981FE71F
+P-Box Result: 8FEE38EA
+New Right (R12): BDC1F3A8
+
+Round 13 Encryption:
+Left (L13): 9CC95AE5
+Right (R13): BDC1F3A8
+Key: 1F0989222001
+Expanded Right: 5FBE03FA7D51
+XOR Result: 40B78AD85D50
+S-Box Substituted: 3286540A
+P-Box Result: 6846130A
+New Right (R13): F48F49EF
+
+Round 14 Encryption:
+Left (L14): BDC1F3A8
+Right (R14): F48F49EF
+Key: 1B288D220102
+Expanded Right: FA945EA53F5F
+XOR Result: E1BCD3873E5D
+S-Box Substituted: 39F7BEE9
+P-Box Result: BD795F8F
+New Right (R14): 00B8AC27
+
+Round 15 Encryption:
+Left (L15): F48F49EF
+Right (R15): 00B8AC27
+Key: 192C8C040102
+Expanded Right: 8015F155810E
+XOR Result: 99397D51800C
+S-Box Substituted: 80D23E4B
+P-Box Result: 3CF30988
+New Right (R15): C87C4067
+
+Round 16 Encryption:
+Left (L16): 00B8AC27
+Right (R16): C87C4067
+Key: 512C8C040140
+Expanded Right: E503F820030F
+XOR Result: B42F7424024F
+S-Box Substituted: 11234C44
+P-Box Result: 9054402E
+New Right (R16): 90ECEC09
+
+Cipher Text (Binary): 00000011 00000010 00110110 10110101 01100000 00110110 10111110 11010100
+[2024-10-30 00:45:40.207675] Cipher text sent: C20ACBE66952151EA020C911D8B326A488FFAAA577B7C8A7030236B56036BED4
+[2024-10-30 00:45:44.415694] Cipher text received: F999347F201AF728
+[2024-10-30 00:45:44.415694] CBC Mode Decryption Process
+
+Round 1 Decryption:
+Left (L1): 496F4C4B
+Right (R1): 43DDAB68
+Key: 512C8C040140
+Expanded Right: 207EFBD56B50
+XOR Result: 715277D16A10
+S-Box Substituted: 013BC4CA
+P-Box Result: 8D56404D
+New Right (R1): C4390C06
+
+Round 2 Decryption:
+Left (L2): 43DDAB68
+Right (R2): C4390C06
+Key: 192C8C040102
+Expanded Right: 6081F285800D
+XOR Result: 79AD7E81810F
+S-Box Substituted: 70E44E24
+P-Box Result: 1025972E
+New Right (R2): 53F83C46
+
+Round 3 Decryption:
+Left (L3): C4390C06
+Right (R3): 53F83C46
+Key: 1B288D220102
+Expanded Right: 2A7FF01F820C
+XOR Result: 31577D3D830E
+S-Box Substituted: B1F21E81
+P-Box Result: 34E14B0F
+New Right (R3): F0D84709
+
+Round 4 Decryption:
+Left (L4): 53F83C46
+Right (R4): F0D84709
+Key: 1F0989222001
+Expanded Right: FA16F020E853
+XOR Result: E51F7902C852
+S-Box Substituted: AC2C2C69
+P-Box Result: 18981EDC
+New Right (R4): 4B60229A
+
+Round 5 Decryption:
+Left (L5): F0D84709
+Right (R5): 4B60229A
+Key: 1F4199002081
+Expanded Right: 256B001054F4
+XOR Result: 3A2A99107475
+S-Box Substituted: 8EF142E9
+P-Box Result: CCBD0D15
+New Right (R5): 3C654A1C
+
+Round 6 Decryption:
+Left (L6): 4B60229A
+Right (R6): 3C654A1C
+Key: 0F41D9100084
+Expanded Right: 1F830AA540F8
+XOR Result: 10C2D3B5407C
+S-Box Substituted: D34723D5
+P-Box Result: C2F1F8A3
+New Right (R6): 8991DA39
+
+Round 7 Decryption:
+Left (L7): 3C654A1C
+Right (R7): 8991DA39
+Key: 2F5151100204
+Expanded Right: C53CA3EF41F3
+XOR Result: EA6DF2FF43F7
+S-Box Substituted: AB3134A0
+P-Box Result: E488468D
+New Right (R7): D8ED0C91
+
+Round 8 Decryption:
+Left (L8): 8991DA39
+Right (R8): D8ED0C91
+Key: 265353810200
+Expanded Right: EF175A8594A3
+XOR Result: C944090496A3
+S-Box Substituted: C216E7A1
+P-Box Result: 45E4BC89
+New Right (R8): CC7566B0
+
+Round 9 Decryption:
+Left (L9): D8ED0C91
+Right (R9): CC7566B0
+Key: A65352810210
+Expanded Right: 6583AAB0D5A1
+XOR Result: C3D0F831D7B1
+S-Box Substituted: FE75B31F
+P-Box Result: EFABBAB6
+New Right (R9): 3746B627
+
+Round 10 Decryption:
+Left (L10): CC7566B0
+Right (R10): 3746B627
+Key: A4D272800810
+Expanded Right: 9AEA0D5AC10E
+XOR Result: 3E387FDAC91E
+S-Box Substituted: 181E5CB7
+P-Box Result: 364E1C6B
+New Right (R10): FA3B7ADB
+
+Round 11 Decryption:
+Left (L11): 3746B627
+Right (R11): FA3B7ADB
+Key: E09272004820
+Expanded Right: FF41F6BF56F7
+XOR Result: 1FD384BF1ED7
+S-Box Substituted: 4E5EDB2B
+P-Box Result: 7D6FBC50
+New Right (R11): 4A290A77
+
+Round 12 Decryption:
+Left (L12): FA3B7ADB
+Right (R12): 4A290A77
+Key: E09626085020
+Expanded Right: A541528543AE
+XOR Result: 45D7748D138E
+S-Box Substituted: ABF386D1
+P-Box Result: C7F94B0D
+New Right (R12): 3DC231D6
+
+Round 13 Decryption:
+Left (L13): 4A290A77
+Right (R13): 3DC231D6
+Key: E0A626081408
+Expanded Right: 1FBE041A3EAC
+XOR Result: FF1822122AA4
+S-Box Substituted: DBD64E34
+P-Box Result: 56EDD52A
+New Right (R13): 1CC4DF5D
+
+Round 14 Decryption:
+Left (L14): 3DC231D6
+Right (R14): 1CC4DF5D
+Key: D0AC26408408
+Expanded Right: 8F96096FEAFA
+XOR Result: 5F3A2F2F6EF2
+S-Box Substituted: B6887A26
+P-Box Result: 70A607F2
+New Right (R14): 4D643624
+
+Round 15 Decryption:
+Left (L15): 1CC4DF5D
+Right (R15): 4D643624
+Key: 50ACA4408040
+Expanded Right: 25AB081AC108
+XOR Result: 7507AC5A4148
+S-Box Substituted: 3987FFB6
+P-Box Result: B36E77AB
+New Right (R15): AFAAA8F6
+
+Round 16 Decryption:
+Left (L16): 4D643624
+Right (R16): AFAAA8F6
+Key: 502CAC440040
+Expanded Right: 55FD555517AD
+XOR Result: 05D1F91117ED
+S-Box Substituted: 0B9C4668
+P-Box Result: 4C3C5548
+New Right (R16): 0158636C
+
+Plain text (Hex): 1100010010100110100000111011100100010010101011110001011110101010
+[2024-10-30 00:45:44.431265] Plain text received: oke.    
+[2024-10-30 00:45:54.612019] CBC Mode Encryption Process
+[2024-10-30 00:45:54.612019] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): F958CA15
+Right (R1): AF5A1378
+Key: 502CAC440040
+Expanded Right: 55EAF40A6BF1
+XOR Result: 05C6584E6BB1
+S-Box Substituted: 05CB05EF
+P-Box Result: 88536D79
+New Right (R1): 710BA76C
+
+Round 2 Encryption:
+Left (L2): AF5A1378
+Right (R2): 710BA76C
+Key: 50ACA4408040
+Expanded Right: 3A2857D0EB58
+XOR Result: 6A84F3906B18
+S-Box Substituted: 9A841F75
+P-Box Result: 72B83D2A
+New Right (R2): DDE22E52
+
+Round 3 Encryption:
+Left (L3): 710BA76C
+Right (R3): DDE22E52
+Key: D0AC26408408
+Expanded Right: 6FBF0415C2A5
+XOR Result: BF13225546AD
+S-Box Substituted: 7BF6F3A8
+P-Box Result: 6D6DF787
+New Right (R3): 1C6650EB
+
+Round 4 Encryption:
+Left (L4): DDE22E52
+Right (R4): 1C6650EB
+Key: E0A626081408
+Expanded Right: 8F830C2A1756
+XOR Result: 6F252A22035E
+S-Box Substituted: 58CB7917
+P-Box Result: B24FA9E2
+New Right (R4): 6FAD87B0
+
+Round 5 Encryption:
+Left (L5): 1C6650EB
+Right (R5): 6FAD87B0
+Key: E09626085020
+Expanded Right: 35FD5BC0FDA0
+XOR Result: D56B7DC8AD80
+S-Box Substituted: 3D82928D
+P-Box Result: 29684B33
+New Right (R5): 350E1BD8
+
+Round 6 Encryption:
+Left (L6): 6FAD87B0
+Right (R6): 350E1BD8
+Key: E09272004820
+Expanded Right: 1AA85C0F7EF0
+XOR Result: FA3A2E0F36D0
+S-Box Substituted: 088DBEFA
+P-Box Result: BB3A15C9
+New Right (R6): D4979279
+
+Round 7 Encryption:
+Left (L7): 350E1BD8
+Right (R7): D4979279
+Key: A4D272800810
+Expanded Right: EA94AFCA43F3
+XOR Result: 4E46DD4A4BE3
+S-Box Substituted: 67BE5F71
+P-Box Result: 7674FF5C
+New Right (R7): 437AE484
+
+Round 8 Encryption:
+Left (L8): D4979279
+Right (R8): 437AE484
+Key: A65352810210
+Expanded Right: 206BF5709408
+XOR Result: 8638A7F19618
+S-Box Substituted: F8660055
+P-Box Result: 02D99A26
+New Right (R8): D64E085F
+
+Round 9 Encryption:
+Left (L9): 437AE484
+Right (R9): D64E085F
+Key: 265353810200
+Expanded Right: EAC25C0502FF
+XOR Result: CC910F8400FF
+S-Box Substituted: BF93BC0B
+P-Box Result: FDCA4B9A
+New Right (R9): BEB0AF1E
+
+Round 10 Encryption:
+Left (L10): D64E085F
+Right (R10): BEB0AF1E
+Key: 2F5151100204
+Expanded Right: 5FD5A155E8FD
+XOR Result: 7084F045EAF9
+S-Box Substituted: 068F5B43
+P-Box Result: F0763950
+New Right (R10): 2638310F
+
+Round 11 Encryption:
+Left (L11): BEB0AF1E
+Right (R11): 2638310F
+Key: 0F41D9100084
+Expanded Right: 90C1F01A285E
+XOR Result: 9F80290A28DA
+S-Box Substituted: 29AACEB0
+P-Box Result: 136C474D
+New Right (R11): ADDCE853
+
+Round 12 Encryption:
+Left (L12): 2638310F
+Right (R12): ADDCE853
+Key: 1F4199002081
+Expanded Right: D5BEF97502A7
+XOR Result: CAFF60752226
+S-Box Substituted: C22A8DF1
+P-Box Result: 53D0AC4D
+New Right (R12): 75E89D42
+
+Round 13 Encryption:
+Left (L13): ADDCE853
+Right (R13): 75E89D42
+Key: 1F0989222001
+Expanded Right: 3ABF514FAA04
+XOR Result: 25B6D86D8A05
+S-Box Substituted: E9BB9ECD
+P-Box Result: BDF8CB6D
+New Right (R13): 1024233E
+
+Round 14 Encryption:
+Left (L14): 75E89D42
+Right (R14): 1024233E
+Key: 1B288D220102
+Expanded Right: 0A01081069FC
+XOR Result: 1129853268FE
+S-Box Substituted: D79BB5B8
+P-Box Result: EFC0E5DB
+New Right (R14): 9A287899
+
+Round 15 Encryption:
+Left (L15): 1024233E
+Right (R15): 9A287899
+Key: 192C8C040102
+Expanded Right: CF41503F14F3
+XOR Result: D66DDC3B15F1
+S-Box Substituted: 3B346BCF
+P-Box Result: 5C3E7AA7
+New Right (R15): 4C1A5999
+
+Round 16 Encryption:
+Left (L16): 9A287899
+Right (R16): 4C1A5999
+Key: 512C8C040140
+Expanded Right: A580F42F3CF2
+XOR Result: F4AC782B3DB2
+S-Box Substituted: 6B45AE86
+P-Box Result: D12BD2A9
+New Right (R16): 4B03AA30
+
+Cipher Text (Binary): 01011010 01110100 10000000 11101110 00101011 00000101 11001000 00000110
+[2024-10-30 00:45:54.612019] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): B6031659
+Right (R1): 4CE5C929
+Key: 502CAC440040
+Expanded Right: A5970BE52952
+XOR Result: F5BBA7A12912
+S-Box Substituted: 6906ADB9
+P-Box Result: 1B48FE89
+New Right (R1): AD4BE8D0
+
+Round 2 Encryption:
+Left (L2): 4CE5C929
+Right (R2): AD4BE8D0
+Key: 50ACA4408040
+Expanded Right: 55AA57F516A1
+XOR Result: 0506F3B596E1
+S-Box Substituted: 09B420F2
+P-Box Result: 061A5585
+New Right (R2): 4AFF9CAC
+
+Round 3 Encryption:
+Left (L3): AD4BE8D0
+Right (R3): 4AFF9CAC
+Key: D0AC26408408
+Expanded Right: 2557FFCF9558
+XOR Result: F5FBD98F1150
+S-Box Substituted: 65718BBA
+P-Box Result: 9F23E615
+New Right (R3): 32680EC5
+
+Round 4 Encryption:
+Left (L4): 4AFF9CAC
+Right (R4): 32680EC5
+Key: E0A626081408
+Expanded Right: 9A435005D60A
+XOR Result: 7AE5760DC202
+S-Box Substituted: 715EB5F2
+P-Box Result: 2753F6CB
+New Right (R4): 6DAC6A67
+
+Round 5 Encryption:
+Left (L5): 32680EC5
+Right (R5): 6DAC6A67
+Key: E09626085020
+Expanded Right: B5BD5835430E
+XOR Result: 552B7E3D132E
+S-Box Substituted: C7841682
+P-Box Result: 60A2D119
+New Right (R5): 52CADFDC
+
+Round 6 Encryption:
+Left (L6): 6DAC6A67
+Right (R6): 52CADFDC
+Key: E09272004820
+Expanded Right: 2A56556FFEF8
+XOR Result: CAC4276FB6D8
+S-Box Substituted: CD1690F5
+P-Box Result: 27D8DC31
+New Right (R6): 4A74B656
+
+Round 7 Encryption:
+Left (L7): 52CADFDC
+Right (R7): 4A74B656
+Key: A4D272800810
+Expanded Right: 2543A95AC2AC
+XOR Result: 8191DBDACABC
+S-Box Substituted: 469A5C35
+P-Box Result: 76448D78
+New Right (R7): 248E52A4
+
+Round 8 Encryption:
+Left (L8): 4A74B656
+Right (R8): 248E52A4
+Key: A65352810210
+Expanded Right: 10945C2A5508
+XOR Result: B6C70EAB5718
+S-Box Substituted: 1D2AD165
+P-Box Result: 215C6C76
+New Right (R8): 6B28DA20
+
+Round 9 Encryption:
+Left (L9): 248E52A4
+Right (R9): 6B28DA20
+Key: 265353810200
+Expanded Right: 3569516F4100
+XOR Result: 133A02EE4300
+S-Box Substituted: D68D4F8D
+P-Box Result: D8A4B97B
+New Right (R9): FC2AEBDF
+
+Round 10 Encryption:
+Left (L10): 6B28DA20
+Right (R10): FC2AEBDF
+Key: 2F5151100204
+Expanded Right: FF8155757EFF
+XOR Result: D0D004657CFB
+S-Box Substituted: 98AE3E55
+P-Box Result: 32F819EE
+New Right (R10): 59D0C3CE
+
+Round 11 Encryption:
+Left (L11): FC2AEBDF
+Right (R11): 59D0C3CE
+Key: 0F41D9100084
+Expanded Right: 2F3EA1607E5C
+XOR Result: 207F78707ED8
+S-Box Substituted: 2725E225
+P-Box Result: C1245EB4
+New Right (R11): 3D0EB56B
+
+Round 12 Encryption:
+Left (L12): 59D0C3CE
+Right (R12): 3D0EB56B
+Key: 1F4199002081
+Expanded Right: 9FA85D5AAB56
+XOR Result: 80E9C45A8BD7
+S-Box Substituted: 440EF27B
+P-Box Result: 2B769CD0
+New Right (R12): 72A65F1E
+
+Round 13 Encryption:
+Left (L13): 3D0EB56B
+Right (R13): 72A65F1E
+Key: 1F0989222001
+Expanded Right: 3A550C2FE8FC
+XOR Result: 255C850DC8FD
+S-Box Substituted: E11BB5B6
+P-Box Result: A7C2E6E9
+New Right (R13): 9ACC5382
+
+Round 14 Encryption:
+Left (L14): 72A65F1E
+Right (R14): 9ACC5382
+Key: 1B288D220102
+Expanded Right: 4F56582A7C05
+XOR Result: 547ED5087D07
+S-Box Substituted: C752C268
+P-Box Result: 4DF5C410
+New Right (R14): 3F539B0E
+
+Round 15 Encryption:
+Left (L15): 9ACC5382
+Right (R15): 3F539B0E
+Key: 192C8C040102
+Expanded Right: 1FEAA7CF685C
+XOR Result: 06C62BCB695E
+S-Box Substituted: 0DB19AD7
+P-Box Result: B73A4935
+New Right (R15): 2DF61AB7
+
+Round 16 Encryption:
+Left (L16): 3F539B0E
+Right (R16): 2DF61AB7
+Key: 512C8C040140
+Expanded Right: 95BFAC0F55AE
+XOR Result: C493200B54EE
+S-Box Substituted: 5FFAC132
+P-Box Result: 474FE556
+New Right (R16): 781C7E58
+
+Cipher Text (Binary): 10000010 00101110 10110110 11011101 01111111 11100110 01100101 00100010
+[2024-10-30 00:45:54.612019] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): 08DAB8F8
+Right (R1): 2D09BA25
+Key: 502CAC440040
+Expanded Right: 95A853DF410A
+XOR Result: C584FF9B414A
+S-Box Substituted: 5C8EB4BF
+P-Box Result: 2B4A9DFB
+New Right (R1): 23902503
+
+Round 2 Encryption:
+Left (L2): 2D09BA25
+Right (R2): 23902503
+Key: 50ACA4408040
+Expanded Right: 907CA010A806
+XOR Result: C0D004502846
+S-Box Substituted: F8AE3164
+P-Box Result: 20D8B7E6
+New Right (R2): 0DD10DC3
+
+Round 3 Encryption:
+Left (L3): 23902503
+Right (R3): 0DD10DC3
+Key: D0AC26408408
+Expanded Right: 85BEA285BE06
+XOR Result: 551284C53A0E
+S-Box Substituted: CC3E61C1
+P-Box Result: 04DCB8D5
+New Right (R3): 274C9DD6
+
+Round 4 Encryption:
+Left (L4): 0DD10DC3
+Right (R4): 274C9DD6
+Key: E0A626081408
+Expanded Right: 10EA594FBEAC
+XOR Result: F04C7F47AAA4
+S-Box Substituted: 584E5D34
+P-Box Result: 324DB46A
+New Right (R4): 3F9CB9A9
+
+Round 5 Encryption:
+Left (L5): 274C9DD6
+Right (R5): 3F9CB9A9
+Key: E09626085020
+Expanded Right: 9FFCF95F3D52
+XOR Result: 7F6ADF576D72
+S-Box Substituted: 8699FA06
+P-Box Result: F5A601F0
+New Right (R5): D2EA9C26
+
+Round 6 Encryption:
+Left (L6): 3F9CB9A9
+Right (R6): D2EA9C26
+Key: E09272004820
+Expanded Right: 6A57554F810D
+XOR Result: 8AC5274FC92D
+S-Box Substituted: 1DC60BB8
+P-Box Result: 1A697513
+New Right (R6): 25F5CCBA
+
+Round 7 Encryption:
+Left (L7): D2EA9C26
+Right (R7): 25F5CCBA
+Key: A4D272800810
+Expanded Right: 10BFABE595F4
+XOR Result: B46DD9659DE4
+S-Box Substituted: 1E3130F4
+P-Box Result: E61804B7
+New Right (R7): 34F29891
+
+Round 8 Encryption:
+Left (L8): 25F5CCBA
+Right (R8): 34F29891
+Key: A65352810210
+Expanded Right: 9A97A54F14A2
+XOR Result: 3CC4F7CE16B2
+S-Box Substituted: 138BF4A6
+P-Box Result: E14645EB
+New Right (R8): C4B38951
+
+Round 9 Encryption:
+Left (L9): 34F29891
+Right (R9): C4B38951
+Key: 265353810200
+Expanded Right: E095A7C52AA3
+XOR Result: C6C6F44428A3
+S-Box Substituted: 5DB35141
+P-Box Result: A45CE916
+New Right (R9): 90AE7187
+
+Round 10 Encryption:
+Left (L10): C4B38951
+Right (R10): 90AE7187
+Key: 2F5151100204
+Expanded Right: CA155C3A3C0F
+XOR Result: E5440D2A3E0B
+S-Box Substituted: A210A303
+P-Box Result: 45A22A80
+New Right (R10): 8111A3D1
+
+Round 11 Encryption:
+Left (L11): 90AE7187
+Right (R11): 8111A3D1
+Key: 0F41D9100084
+Expanded Right: C028A3D07EA3
+XOR Result: CF697AC07E27
+S-Box Substituted: B6D2F207
+P-Box Result: 65E70BB2
+New Right (R11): F5497A35
+
+Round 12 Encryption:
+Left (L12): 8111A3D1
+Right (R12): F5497A35
+Key: 1F4199002081
+Expanded Right: FAAA52BF41AB
+XOR Result: E5EBCBBF612A
+S-Box Substituted: AA7FDA2C
+P-Box Result: FDED1664
+New Right (R12): 7CFCB5B5
+
+Round 13 Encryption:
+Left (L13): F5497A35
+Right (R13): 7CFCB5B5
+Key: 1F0989222001
+Expanded Right: BF97F95ABDAA
+XOR Result: A09E70789DAB
+S-Box Substituted: DFBF978A
+P-Box Result: EDEAF15F
+New Right (R13): 18A38B6A
+
+Round 14 Encryption:
+Left (L14): 7CFCB5B5
+Right (R14): 18A38B6A
+Key: 1B288D220102
+Expanded Right: 0F1507C56B54
+XOR Result: 143D8AE76A56
+S-Box Substituted: 7DC6AA1E
+P-Box Result: 1B6BD3B2
+New Right (R14): 67976607
+
+Round 15 Encryption:
+Left (L15): 18A38B6A
+Right (R15): 67976607
+Key: 192C8C040102
+Expanded Right: B0FCAEB0C00E
+XOR Result: A9D022B4C10C
+S-Box Substituted: 6BA6262B
+P-Box Result: 486ADF8C
+New Right (R15): 50C954E6
+
+Round 16 Encryption:
+Left (L16): 67976607
+Right (R16): 50C954E6
+Key: 512C8C040140
+Expanded Right: 2A1652AA970C
+XOR Result: 7B3ADEAE964C
+S-Box Substituted: 769FE92B
+P-Box Result: DD46BFD2
+New Right (R16): BAD1D9D5
+
+Cipher Text (Binary): 00110101 01000010 00001011 01100100 11011101 01000010 10111111 01110111
+[2024-10-30 00:45:54.612019] Cipher text sent: 5A7480EE2B05C806822EB6DD7FE6652235420B64DD42BF77
+[2024-10-30 00:46:06.927740] Cipher text received: 7A62E3EC6FA95941B30B7D3FE37B4A9F
+[2024-10-30 00:46:06.927740] CBC Mode Decryption Process
+
+Round 1 Decryption:
+Left (L1): DF4118F4
+Right (R1): 2C3F7917
+Key: 512C8C040140
+Expanded Right: 9581FEBF28AE
+XOR Result: C4AD72BB29EE
+S-Box Substituted: 5BE18082
+P-Box Result: C10BC107
+New Right (R1): 1E4AD9F3
+
+Round 2 Decryption:
+Left (L2): 2C3F7917
+Right (R2): 1E4AD9F3
+Key: 192C8C040102
+Expanded Right: 8FC2556F3FA6
+XOR Result: 96EED96B3EA4
+S-Box Substituted: 81510E54
+P-Box Result: 96B14028
+New Right (R2): BA8E393F
+
+Round 3 Decryption:
+Left (L3): 1E4AD9F3
+Right (R3): BA8E393F
+Key: 1B288D220102
+Expanded Right: DF545C1F29FF
+XOR Result: C47CD13D28FD
+S-Box Substituted: 57F41DB6
+P-Box Result: 7603F53F
+New Right (R3): 68492CCC
+
+Round 4 Decryption:
+Left (L4): BA8E393F
+Right (R4): 68492CCC
+Key: 1F0989222001
+Expanded Right: 350252959658
+XOR Result: 2A0BDBB7B659
+S-Box Substituted: F07A2020
+P-Box Result: 04C186C6
+New Right (R4): BE4FBFF9
+
+Round 5 Decryption:
+Left (L5): 68492CCC
+Right (R5): BE4FBFF9
+Key: 1F4199002081
+Expanded Right: DFC25FDFFFF3
+XOR Result: C083C6DFDF72
+S-Box Substituted: F6A39836
+P-Box Result: F3C28736
+New Right (R5): 9B8BABFA
+
+Round 6 Decryption:
+Left (L6): BE4FBFF9
+Right (R6): 9B8BABFA
+Key: 0F41D9100084
+Expanded Right: 4F7C57D57FF5
+XOR Result: 403D8EC57F71
+S-Box Substituted: 3DCA6E3F
+P-Box Result: 1A6F4FFA
+New Right (R6): A420F003
+
+Round 7 Decryption:
+Left (L7): 9B8BABFA
+Right (R7): A420F003
+Key: 2F5151100204
+Expanded Right: D081017A0007
+XOR Result: FFD0506A0203
+S-Box Substituted: DED109FF
+P-Box Result: DE9BAD33
+New Right (R7): 451006C9
+
+Round 8 Decryption:
+Left (L8): A420F003
+Right (R8): 451006C9
+Key: 265353810200
+Expanded Right: A0A8A000D652
+XOR Result: 86FBF381D452
+S-Box Substituted: F27443E9
+P-Box Result: 4CB5BE07
+New Right (R8): E8954E04
+
+Round 9 Decryption:
+Left (L9): 451006C9
+Right (R9): E8954E04
+Key: A65352810210
+Expanded Right: 7514AAA5C009
+XOR Result: D347F824C219
+S-Box Substituted: 9C1546F0
+P-Box Result: 86BC141B
+New Right (R9): C3AC12D2
+
+Round 10 Decryption:
+Left (L10): E8954E04
+Right (R10): C3AC12D2
+Key: A4D272800810
+Expanded Right: 607D580A56A5
+XOR Result: C4AF2A8A5EB5
+S-Box Substituted: 5BEB2259
+P-Box Result: CA79C9C6
+New Right (R10): 22EC87C2
+
+Round 11 Decryption:
+Left (L11): C3AC12D2
+Right (R11): 22EC87C2
+Key: E09272004820
+Expanded Right: 10575940FE04
+XOR Result: F0C52B40B624
+S-Box Substituted: 53C18C54
+P-Box Result: D311C12A
+New Right (R11): 10BDD3F8
+
+Round 12 Decryption:
+Left (L12): 22EC87C2
+Right (R12): 10BDD3F8
+Key: E09626085020
+Expanded Right: 0A15FBEA7FF0
+XOR Result: EA83DDE22FD0
+S-Box Substituted: AAAE6ECA
+P-Box Result: 58FE13CD
+New Right (R12): 7A12940F
+
+Round 13 Decryption:
+Left (L13): 10BDD3F8
+Right (R13): 7A12940F
+Key: E0A626081408
+Expanded Right: BF40A54A805E
+XOR Result: 5FE683429456
+S-Box Substituted: BF4889EE
+P-Box Result: 599B6673
+New Right (R13): 4926B58B
+
+Round 14 Decryption:
+Left (L14): 7A12940F
+Right (R14): 4926B58B
+Key: D0AC26408408
+Expanded Right: A5290D5ABC56
+XOR Result: 75852B1A385E
+S-Box Substituted: 3CC11367
+P-Box Result: A03B2F32
+New Right (R14): DA29BB3D
+
+Round 15 Decryption:
+Left (L15): 4926B58B
+Right (R15): DA29BB3D
+Key: 50ACA4408040
+Expanded Right: EF4153DF69FB
+XOR Result: BFEDF79FE9BB
+S-Box Substituted: 7F3B76D5
+P-Box Result: E67CCAFF
+New Right (R15): AF5A7F74
+
+Round 16 Decryption:
+Left (L16): DA29BB3D
+Right (R16): AF5A7F74
+Key: 502CAC440040
+Expanded Right: 55EAF43FEBA9
+XOR Result: 05C6587BEBE9
+S-Box Substituted: 05CB9674
+P-Box Result: A3714578
+New Right (R16): 7958FE45
+
+Plain text (Hex): 1100100110101100100011111111110001111110110011100111111110000100
+
+Round 1 Decryption:
+Left (L1): 74AD8CBF
+Right (R1): 913DEEFB
+Key: 512C8C040140
+Expanded Right: CA29FBF5D7F7
+XOR Result: 9B0577F1D6B7
+S-Box Substituted: 855B03A0
+P-Box Result: 84E16451
+New Right (R1): F04CE8EE
+
+Round 2 Decryption:
+Left (L2): 913DEEFB
+Right (R2): F04CE8EE
+Key: 192C8C040102
+Expanded Right: 7A025975175D
+XOR Result: 632ED571165F
+S-Box Substituted: 5852E622
+P-Box Result: 056F848A
+New Right (R2): 94526A71
+
+Round 3 Decryption:
+Left (L3): F04CE8EE
+Right (R3): 94526A71
+Key: 1B288D220102
+Expanded Right: CA82A43543A3
+XOR Result: D1AA291742A1
+S-Box Substituted: 908A2402
+P-Box Result: 00C201CA
+New Right (R3): F08EE924
+
+Round 4 Decryption:
+Left (L4): 94526A71
+Right (R4): F08EE924
+Key: 1F0989222001
+Expanded Right: 7A145D752909
+XOR Result: 651DD4570908
+S-Box Substituted: 9C38F7B6
+P-Box Result: 27AE24FF
+New Right (R4): B3FC4E8E
+
+Round 5 Decryption:
+Left (L5): F08EE924
+Right (R5): B3FC4E8E
+Key: 1F4199002081
+Expanded Right: 5A7FF825D45D
+XOR Result: 453E6125F4DC
+S-Box Substituted: A0B3483C
+P-Box Result: 9EC40724
+New Right (R5): 6E4AEE00
+
+Round 6 Decryption:
+Left (L6): B3FC4E8E
+Right (R6): 6E4AEE00
+Key: 0F41D9100084
+Expanded Right: 35C25575C000
+XOR Result: 3A838C65C084
+S-Box Substituted: 8A5935B8
+P-Box Result: EE8924C9
+New Right (R6): 5D756A47
+
+Round 7 Decryption:
+Left (L7): 6E4AEE00
+Right (R7): 5D756A47
+Key: 2F5151100204
+Expanded Right: AFABAAB5420E
+XOR Result: 80FAFBA5400A
+S-Box Substituted: 4E97134F
+P-Box Result: EC7AB930
+New Right (R7): 82305730
+
+Round 8 Decryption:
+Left (L8): 5D756A47
+Right (R8): 82305730
+Key: 265353810200
+Expanded Right: 4041A02AE9A1
+XOR Result: 6612F3ABEBA1
+S-Box Substituted: 9D44D6E2
+P-Box Result: 21BF541B
+New Right (R8): 7CCA3E5C
+
+Round 9 Decryption:
+Left (L9): 82305730
+Right (R9): 7CCA3E5C
+Key: A65352810210
+Expanded Right: 3F96541FC2F8
+XOR Result: 99C5069EC0E8
+S-Box Substituted: 85C37C09
+P-Box Result: B8C54998
+New Right (R9): 3AF51EA8
+
+Round 10 Decryption:
+Left (L10): 7CCA3E5C
+Right (R10): 3AF51EA8
+Key: A4D272800810
+Expanded Right: 1F57AA8FD550
+XOR Result: BB85D80FDD40
+S-Box Substituted: B9EBB80D
+P-Box Result: B9C94BE6
+New Right (R10): C50375BA
+
+Round 11 Decryption:
+Left (L11): 3AF51EA8
+Right (R11): C50375BA
+Key: E09272004820
+Expanded Right: 60A806BABDF5
+XOR Result: 803A74BAF5D5
+S-Box Substituted: 4D638AC6
+P-Box Result: 917BC035
+New Right (R11): AB8EDE9D
+
+Round 12 Decryption:
+Left (L12): C50375BA
+Right (R12): AB8EDE9D
+Key: E09626085020
+Expanded Right: D57C5D6FD4FB
+XOR Result: 35EA7B6784DB
+S-Box Substituted: DA67313E
+P-Box Result: EACBB4A6
+New Right (R12): 2FC8C11C
+
+Round 13 Decryption:
+Left (L13): AB8EDE9D
+Right (R13): 2FC8C11C
+Key: E0A626081408
+Expanded Right: 15FE516028F8
+XOR Result: F55877683CF0
+S-Box Substituted: 611B0F50
+P-Box Result: 9670E248
+New Right (R13): 3DFE3CD5
+
+Round 14 Decryption:
+Left (L14): 2FC8C11C
+Right (R14): 3DFE3CD5
+Key: D0AC26408408
+Expanded Right: 9FBFFC1F96AA
+XOR Result: 4F13DA5F12A2
+S-Box Substituted: 6BACAB0B
+P-Box Result: 592AFBC4
+New Right (R14): 76E23AD8
+
+Round 15 Decryption:
+Left (L15): 3DFE3CD5
+Right (R15): 76E23AD8
+Key: 50ACA4408040
+Expanded Right: 3AD7041F56F0
+XOR Result: 6A7BA05FD6B0
+S-Box Substituted: 910AA8A0
+P-Box Result: 11C044C3
+New Right (R15): 2C3E7816
+
+Round 16 Decryption:
+Left (L16): 76E23AD8
+Right (R16): 2C3E7816
+Key: 502CAC440040
+Expanded Right: 1581FC3F00AC
+XOR Result: 45AD507B00EC
+S-Box Substituted: A0E1970E
+P-Box Result: A9A3232C
+New Right (R16): DF4119F4
+
+Plain text (Hex): 0101010001100010111000111110110001101111101010010101100101000001
+[2024-10-30 00:46:06.943423] Plain text received: baiklah..       
+[2024-10-30 00:46:18.172225] CBC Mode Encryption Process
+[2024-10-30 00:46:18.172225] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): E138A30C
+Right (R1): AF5AA8DE
+Key: 502CAC440040
+Expanded Right: 55EAF55516FD
+XOR Result: 05C6591116BD
+S-Box Substituted: 05C146A6
+P-Box Result: 80274539
+New Right (R1): 611FE635
+
+Round 2 Encryption:
+Left (L2): AF5AA8DE
+Right (R2): 611FE635
+Key: 50ACA4408040
+Expanded Right: B028FFF0C1AA
+XOR Result: E0845BB041EA
+S-Box Substituted: 362A7A7C
+P-Box Result: 7A7406F6
+New Right (R2): D52EAE28
+
+Round 3 Encryption:
+Left (L3): 611FE635
+Right (R3): D52EAE28
+Key: D0AC26408408
+Expanded Right: 6AA95D55C151
+XOR Result: BA057B154559
+S-Box Substituted: B0572350
+P-Box Result: 86F13282
+New Right (R3): E7EED4B7
+
+Round 4 Encryption:
+Left (L4): D52EAE28
+Right (R4): E7EED4B7
+Key: E0A626081408
+Expanded Right: F0FF5D6A95AF
+XOR Result: 10597B6281A7
+S-Box Substituted: D4D7D2E7
+P-Box Result: A5F79D33
+New Right (R4): 70D9331B
+
+Round 5 Encryption:
+Left (L5): E7EED4B7
+Right (R5): 70D9331B
+Key: E09626085020
+Expanded Right: BA16F29A68F6
+XOR Result: 5A80D49238D6
+S-Box Substituted: CA7813BE
+P-Box Result: 6EABA465
+New Right (R5): 894570D2
+
+Round 6 Encryption:
+Left (L6): 70D9331B
+Right (R6): 894570D2
+Key: E09272004820
+Expanded Right: 452A0ABA16A5
+XOR Result: A5B878BA5E85
+S-Box Substituted: 4915825D
+P-Box Result: 8F38D820
+New Right (R6): FFE1EB3B
+
+Round 7 Encryption:
+Left (L7): 894570D2
+Right (R7): FFE1EB3B
+Key: A4D272800810
+Expanded Right: FFFF03F569F7
+XOR Result: 5B2D717561E7
+S-Box Substituted: C8E98477
+P-Box Result: 839B8D6C
+New Right (R7): 0ADEFDBE
+
+Round 8 Encryption:
+Left (L8): FFE1EB3B
+Right (R8): 0ADEFDBE
+Key: A65352810210
+Expanded Right: 0556FD7FBDFC
+XOR Result: A305AFFEBFEC
+S-Box Substituted: D57835CE
+P-Box Result: 2C93E0FF
+New Right (R8): D3720BC4
+
+Round 9 Encryption:
+Left (L9): 0ADEFDBE
+Right (R9): D3720BC4
+Key: 265353810200
+Expanded Right: 6A6BA4057E09
+XOR Result: 4C38F7847C09
+S-Box Substituted: 6DABB2AA
+P-Box Result: A96AC7D5
+New Right (R9): A3B43A6B
+
+Round 10 Encryption:
+Left (L10): D3720BC4
+Right (R10): A3B43A6B
+Key: 2F5151100204
+Expanded Right: D07DA81F4357
+XOR Result: FF2CF90F4153
+S-Box Substituted: D8FCB4B5
+P-Box Result: 27899DEF
+New Right (R10): F4FB962B
+
+Round 11 Encryption:
+Left (L11): A3B43A6B
+Right (R11): F4FB962B
+Key: 0F41D9100084
+Expanded Right: FA97F7CAC157
+XOR Result: F5D62EDAC1D3
+S-Box Substituted: 6BBD5C75
+P-Box Result: F61CDF6C
+New Right (R11): 55A8E507
+
+Round 12 Encryption:
+Left (L12): F4FB962B
+Right (R12): 55A8E507
+Key: 1F4199002081
+Expanded Right: AABD5170A80E
+XOR Result: B5FCC870888F
+S-Box Substituted: 15F0E944
+P-Box Result: 151561B6
+New Right (R12): E1EEF79D
+
+Round 13 Encryption:
+Left (L13): 55A8E507
+Right (R13): E1EEF79D
+Key: 1F0989222001
+Expanded Right: F03F5D7AFCFB
+XOR Result: EF36D458DCFA
+S-Box Substituted: 06B8F953
+P-Box Result: 771629D4
+New Right (R13): 22BECCD3
+
+Round 14 Encryption:
+Left (L14): E1EEF79D
+Right (R14): 22BECCD3
+Key: 1B288D220102
+Expanded Right: 9055FD6596A6
+XOR Result: 8B7D704797A4
+S-Box Substituted: 1CEF5614
+P-Box Result: A26D117E
+New Right (R14): 4383E6E3
+
+Round 15 Encryption:
+Left (L15): 22BECCD3
+Right (R15): 4383E6E3
+Key: 192C8C040102
+Expanded Right: A07C07F0D706
+XOR Result: B9508BF4D604
+S-Box Substituted: B10F5958
+P-Box Result: BAD47242
+New Right (R15): 986ABE91
+
+Round 16 Encryption:
+Left (L16): 4383E6E3
+Right (R16): 986ABE91
+Key: 512C8C040140
+Expanded Right: CF03555FD4A3
+XOR Result: 9E2FD95BD5E3
+S-Box Substituted: 2EC1F8C1
+P-Box Result: F11D0B91
+New Right (R16): B29EED72
+
+Cipher Text (Binary): 00000110 01111001 00011100 10111100 11011011 01101101 00100101 11011110
+[2024-10-30 00:46:18.172225] Encryption and Decryption Process
+
+Round 1 Encryption:
+Left (L1): 494EBD0B
+Right (R1): 98959CB9
+Key: 502CAC440040
+Expanded Right: CF14ABCF95F3
+XOR Result: 9F38078B95B3
+S-Box Substituted: 26D5267C
+P-Box Result: CE3117B8
+New Right (R1): 877FAAB3
+
+Round 2 Encryption:
+Left (L2): 98959CB9
+Right (R2): 877FAAB3
+Key: 50ACA4408040
+Expanded Right: C0EBFFD555A7
+XOR Result: 90475B95D5E7
+S-Box Substituted: E8FAC3C7
+P-Box Result: 05FFAB65
+New Right (R2): 9D6A37DC
+
+Round 3 Encryption:
+Left (L3): 877FAAB3
+Right (R3): 9D6A37DC
+Key: D0AC26408408
+Expanded Right: 4FAB541AFEF9
+XOR Result: 9F07725A7AF1
+S-Box Substituted: 25F1FC4F
+P-Box Result: BD174BBC
+New Right (R3): 3A68E10F
+
+Round 4 Encryption:
+Left (L4): 9D6A37DC
+Right (R4): 3A68E10F
+Key: E0A626081408
+Expanded Right: 9F435170285E
+XOR Result: 7FE577783C56
+S-Box Substituted: 8F5B9F9E
+P-Box Result: FFEB6079
+New Right (R4): 628157A5
+
+Round 5 Encryption:
+Left (L5): 3A68E10F
+Right (R5): 628157A5
+Key: E09626085020
+Expanded Right: B05402AAFD0A
+XOR Result: 50C224A2AD2A
+S-Box Substituted: 6369A86C
+P-Box Result: D911C6E4
+New Right (R5): E37927EB
+
+Round 6 Encryption:
+Left (L6): 628157A5
+Right (R6): E37927EB
+Key: E09272004820
+Expanded Right: F06BF290FF57
+XOR Result: 10F98090B777
+S-Box Substituted: DE971C80
+P-Box Result: F4C8911B
+New Right (R6): 9649C6BE
+
+Round 7 Encryption:
+Left (L7): E37927EB
+Right (R7): 9649C6BE
+Key: A4D272800810
+Expanded Right: 4AC253E0D5FD
+XOR Result: EE102160DDED
+S-Box Substituted: 0DA3D9F8
+P-Box Result: BB5C6515
+New Right (R7): 582542FE
+
+Round 8 Encryption:
+Left (L8): 9649C6BE
+Right (R8): 582542FE
+Key: A65352810210
+Expanded Right: 2F010AA057FC
+XOR Result: 8952582155EC
+S-Box Substituted: 113B7DCE
+P-Box Result: BC5660EF
+New Right (R8): 2A1FA651
+
+Round 9 Encryption:
+Left (L9): 582542FE
+Right (R9): 2A1FA651
+Key: 265353810200
+Expanded Right: 9540FFD0C2A2
+XOR Result: B313AC51C0A2
+S-Box Substituted: 2B5735BB
+P-Box Result: EE4B7E89
+New Right (R9): B66E3C77
+
+Round 10 Encryption:
+Left (L10): 2A1FA651
+Right (R10): B66E3C77
+Key: 2F5151100204
+Expanded Right: DAC35C1F83AF
+XOR Result: F5920D0F81AB
+S-Box Substituted: 6660B1EA
+P-Box Result: 6913A695
+New Right (R10): 430C00C4
+
+Round 11 Encryption:
+Left (L11): B66E3C77
+Right (R11): 430C00C4
+Key: 0F41D9100084
+Expanded Right: 206858001608
+XOR Result: 2F298110168C
+S-Box Substituted: 289D4AAB
+P-Box Result: 9C2E1F41
+New Right (R11): 2A402336
+
+Round 12 Encryption:
+Left (L12): 430C00C4
+Right (R12): 2A402336
+Key: 1F4199002081
+Expanded Right: 1542001069AC
+XOR Result: 0A039910492D
+S-Box Substituted: 40514AB8
+P-Box Result: 9E258401
+New Right (R12): DD2984C5
+
+Round 13 Encryption:
+Left (L13): 2A402336
+Right (R13): DD2984C5
+Key: 1F0989222001
+Expanded Right: EFA953C0960B
+XOR Result: F0A0DAE2B60A
+S-Box Substituted: 5B7C655F
+P-Box Result: 4E1FF8EE
+New Right (R13): 645FDBD8
+
+Round 14 Encryption:
+Left (L14): DD2984C5
+Right (R14): 645FDBD8
+Key: 1B288D220102
+Expanded Right: 3082FFEF7EF0
+XOR Result: 2BAA72CD7FF2
+S-Box Substituted: F361FEC6
+P-Box Result: F1B7C2AF
+New Right (R14): 2C9E466A
+
+Round 15 Encryption:
+Left (L15): 645FDBD8
+Right (R15): 2C9E466A
+Key: 192C8C040102
+Expanded Right: 1594FC20C354
+XOR Result: 0CB87024C256
+S-Box Substituted: F21F464E
+P-Box Result: CCF6926A
+New Right (R15): A8A949B2
+
+Round 16 Encryption:
+Left (L16): 2C9E466A
+Right (R16): A8A949B2
+Key: 512C8C040140
+Expanded Right: 551552A53DA5
+XOR Result: 0439DEA13CE5
+S-Box Substituted: 0D0FA15E
+P-Box Result: 8B5A70F0
+New Right (R16): A7C4369A
+
+Cipher Text (Binary): 01101000 01000111 01010100 10101001 00000111 11100110 00011000 11110011
+[2024-10-30 00:46:18.172225] Cipher text sent: 06791CBCDB6D25DE684754A907E618F3
+[2024-10-30 00:46:20.582648] Cipher text received: stop
