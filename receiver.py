@@ -1,34 +1,54 @@
 import socket
 from DES import DES
 
-
-def server_program():
-    des = DES()
+def receiver_program():
+    des = DES(role="Receiver")
     
     host = socket.gethostname()
-    port = 5000  # initiate port no above 1024
+    port = 5000 
 
-    server_socket = socket.socket()  # get instance
-    server_socket.bind((host, port))  # bind host address and port together
+    server_socket = socket.socket() 
+    server_socket.bind((host, port)) 
 
-    # configure how many client the server can listen simultaneously
     server_socket.listen(2)
-    conn, address = server_socket.accept()  # accept new connection
+    conn, address = server_socket.accept() 
     print("Connection from: " + str(address))
     while True:
-        # receive data stream. it won't accept data packet greater than 1024 bytes
         data = conn.recv(1024)
         if not data:
             break
-        
+
         raw_message = data.decode('utf-8')
-        print("Cipher text received: " + str(raw_message))
-    
-        plain_text = des.decryption(raw_message)
+        des.log_with_timestamp(f"Cipher text received: {raw_message}")
+
+        if raw_message.lower() == 'stop':
+            print("Stop signal received from sender. Closing connection.")
+            conn.sendall(bytes("stop", 'utf-8'))  # Kirim sinyal “stop” kembali ke sender
+            break  # Akhiri loop untuk menutup koneksi
+
+        plain_text = des.decryption_cbc(raw_message)
+        des.log_with_timestamp(f"Plain text received: {plain_text}")
         print("Plain text received: " + str(plain_text))
 
+        message = input(' -> ')
+        cipher_text = des.encryption_cbc(message, output_format="hex")
+        des.log_with_timestamp(f"Cipher text sent: {cipher_text}")
+
+        if message.lower() == 'stop':
+            conn.sendall(bytes("stop", 'utf-8'))  # Kirim sinyal “stop” ke sender
+            print("Stop signal sent to sender. Closing connection.")
+            break  # Akhiri loop untuk menutup koneksi
+
+        conn.sendall(bytes(cipher_text, 'utf-8'))
+
     conn.close()
+    print("Connection fully closed by both parties.")
+
 
 
 if __name__ == '__main__':
-    server_program()
+    receiver_program()
+    
+    
+    
+    
