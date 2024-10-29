@@ -6,6 +6,39 @@ from thirdparty import generate_random_key  # Import fungsi untuk key acak
 class DES():
     iv = "1010101111001101111001101001011100010010101011110001011110101010"
 
+    def __init__(self, role):
+        # Pastikan role diberikan (sender atau receiver)
+        if role not in ["Sender", "Receiver"]:
+            raise ValueError("Role harus 'sender' atau 'receiver'")
+        
+        # Inisialisasi role, log_number, dan key
+        self.role = role
+        self.log_number = self.get_next_log_number()
+        self.key = generate_random_key()  # Generate key acak baru
+        self.reset_logger()  # Bersihkan logger lama dan inisialisasi logger baru dengan key
+
+    def get_next_log_number(self):
+        # Menentukan nomor log berikutnya berdasarkan file log yang ada
+        existing_logs = [f for f in os.listdir() if f.endswith(".log") and self.role in f]
+        log_numbers = [int(f.split("_")[0]) for f in existing_logs if f.split("_")[0].isdigit()]
+        return max(log_numbers) + 1 if log_numbers else 1
+
+    def reset_logger(self):
+        # Bersihkan logger sebelumnya dan buat file log baru
+        logging.getLogger().handlers.clear()
+        self.set_log_file()
+
+    def set_log_file(self):
+        # Membuat file log baru dengan nama sesuai format dan mencatat kunci di bagian atas
+        log_filename = f"{self.log_number}_{self.role}_{datetime.now().strftime('%d%m%Y')}.log"
+        logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(message)s')
+        self.logger = logging.getLogger()
+        self.logger.info(f"Key: {self.key}")  # Tulis kunci di bagian atas log
+
+    def log_with_timestamp(self, message):
+        # Menulis log dengan timestamp untuk setiap pesan
+        self.logger.info(f"[{datetime.now()}] {message}")
+
     # Tabel untuk Initial Permutation pada binary string. Jadi misal ada 64 bit biner, maka yang awalnya berada di urutan ke 58 akan dialihkan ke urutan 1
     initial_perm_table = [
         58, 50, 42, 34, 26, 18, 10, 2,
