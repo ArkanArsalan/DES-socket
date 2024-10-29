@@ -4,6 +4,13 @@ from datetime import datetime
 
 class DES():
     key = "test1234"
+    iv = "1010101111001101111001101001011100010010101011110001011110101010"
+    
+    logging.basicConfig(filename='encryption_decryption.log', level=logging.INFO, format='%(message)s')
+    logger = logging.getLogger()
+
+    def log_with_timestamp(self, message):
+        self.logger.info(f"[{datetime.now()}] {message}")
     
     # Tabel untuk Initial Permutation pada binary string. Jadi misal ada 64 bit biner, maka yang awalnya berada di urutan ke 58 akan dialihkan ke urutan 1
     initial_perm_table = [
@@ -150,7 +157,7 @@ class DES():
             binary_char = format(ord(char), '08b')  # ASCII 8 bit
             binary_representation += binary_char
             i += 1  # Increment counter untuk melanjutkan ke karakter berikutnya
-        return binary_representation[:64].ljust(64, '0')  # Maks panjang 64-bit dan tambahkan 0 di depan jika belum 64
+        return binary_representation  # Maks panjang 64-bit dan tambahkan 0 di depan jika belum 64
 
 
     # Fungsi untuk mengubah binary menjadi string ASCII
@@ -230,16 +237,8 @@ class DES():
         return round_keys
 
 
-    logging.basicConfig(filename='encryption_decryption.log', level=logging.INFO, format='%(message)s')
-    logger = logging.getLogger()
-
-    def log_with_timestamp(self, message):
-        self.logger.info(f"[{datetime.now()}] {message}")
-
     # Fungsi untuk enkripsi dengan opsi output dalam format biner atau hex
-    def encryption(self, input, output_format="hex"):
-        self.log_with_timestamp("Encryption and Decryption Process")
-        input_bin = self.string_to_binary(input)
+    def encryption(self, input_bin, output_format="hex"):
         round_keys = self.generate_round_keys(self.key)  # key pertama
         ip_result_str = self.initial_perm_on_binary(input_bin)
         
@@ -301,8 +300,6 @@ class DES():
 
 
     def decryption(self, input, output_format="text"):
-        input = self.hex_to_binary(input)
-
         round_keys = self.generate_round_keys(self.key)
 
         ip_dec_result_str = self.initial_perm_on_binary(input)
@@ -354,13 +351,88 @@ class DES():
 
         # Gabungkan L16 dan R16, lalu lakukan permutasi akhir
         final_result = right_biner_perm + left_biner_perm
-        dec_final_cipher = ''.join([final_result[self.ip_inverse_table[i] - 1] for i in range(64)])
+        dec_plain_text = ''.join([final_result[self.ip_inverse_table[i] - 1] for i in range(64)])
 
         if output_format == "hex":
-            plain_text_hex = self.binary_to_hex(dec_final_cipher)
+            plain_text_hex = self.binary_to_hex(dec_plain_text)
             self.logger.info(f"\nPlain text (Hex): {plain_text_hex}")
             return plain_text_hex
+        elif output_format == "bin":
+            self.logger.info(f"\nPlain text (bin): {dec_plain_text}")
+            return dec_plain_text
         else:
-            plain_text_ascii = self.binary_to_ascii(dec_final_cipher)
-            self.logger.info(f"\nPlain text (Hex): {plain_text_ascii}")
+            plain_text_ascii = self.binary_to_ascii(dec_plain_text)
+            self.logger.info(f"\nPlain text (Ascii): {plain_text_ascii}")
             return plain_text_ascii
+        
+        
+    def encryption_cbc(self, input, output_format="hex"):
+        self.log_with_timestamp(f"CBC Encryption Process for \"{input}\"")
+        
+        # Convert input text menjadi binary
+        input_bin = self.string_to_binary(input)
+        
+        # Membagi menjadi 64 bit block
+        blocks = [input_bin[i:i+64] for i in range(0, len(input_bin), 64)]
+        if len(blocks[-1]) < 64:
+            blocks[-1] = blocks[-1].ljust(64, '0')
+            
+        cipher_blocks = []
+        previous_block = self.iv
+
+        for block in blocks:
+            # XOR plaintext block dengan ciphertext block sebelumbya (jika block pertama maka deng IV)
+            block_xor = ''.join(str(int(block[i]) ^ int(previous_block[i])) for i in range(64))
+            
+            # Enkripsi hasil XOR menggunakan DES
+            encrypted_block = self.encryption(block_xor, output_format="bin")
+            cipher_blocks.append(encrypted_block)
+            
+            # Perbarui previous block 
+            previous_block = encrypted_block 
+
+        # Gabungkan cipher block
+        final_cipher = ''.join(cipher_blocks)
+        
+        self.logger.info(f"\nCipher Text Result: {self.binary_to_hex(final_cipher)}\n")
+        
+        # Output sesuai format
+        if output_format == "hex":
+            return self.binary_to_hex(final_cipher)
+        else:
+            return final_cipher
+
+
+    def decryption_cbc(self, input, output_format="text"):
+        self.log_with_timestamp(f"CBC Mode Decryption Process for \"{input}\"")
+
+        # Convert input hex menjadi binary
+        input_bin = self.hex_to_binary(input)
+
+        # Membagi menjadi 64 bit block
+        blocks = [input_bin[i:i+64] for i in range(0, len(input_bin), 64)]
+        
+        plain_blocks = []
+        previous_block = self.iv
+
+        for block in blocks:
+            # Dekripsi satu ciphertext block menggunakan des
+            decrypted_block = self.decryption(block, output_format="bin")
+            
+            # XOR block yang sudah didekripsi dengan ciphertext block sebelumnya (atau dengan IV jika block pertama)
+            plain_text_block = ''.join(str(int(decrypted_block[i]) ^ int(previous_block[i])) for i in range(64))
+            plain_blocks.append(plain_text_block)
+            
+            # Perbarui previous block
+            previous_block = block 
+
+        # Gabungkan block plaintext
+        final_plaintext = ''.join(plain_blocks)
+        
+        self.logger.info(f"\nPlain Text Result: {self.binary_to_ascii(final_plaintext)}\n")
+        
+        # Output sesuai format
+        if output_format == "text":
+            return self.binary_to_ascii(final_plaintext)
+        else:
+            return final_plaintext
